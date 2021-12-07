@@ -1,0 +1,23 @@
+@base <localhost://> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rscript: <https://www.provr.com/10x10raster_ex#> .
+
+rscript:in_raster
+    a prov:Entity ;
+    rdfs:label "Input Raster" .
+
+rscript:mask
+    a prov:Activity ;
+    rdfs:comment """Generate mask by setting
+    every value in the input raster that is 70 or greater
+    to 1 and each other value to 0.""" ;
+    rdfs:label "Mask" ;
+    prov:used rscript:in_raster .
+
+rscript:out_raster
+    a prov:Entity ;
+    rdfs:label "Mask Raster" ;
+    prov:wasGeneratedBy rscript:mask .
+

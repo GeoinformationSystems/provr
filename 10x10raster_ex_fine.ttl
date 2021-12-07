@@ -1,0 +1,160 @@
+@base <localhost://> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rscript: <https://www.provr.com/10x10raster_ex#> .
+
+rscript:enter_loop
+    a prov:Activity ;
+    rdfs:label "Enter Loop" ;
+    prov:used rscript:in_raster .
+
+rscript:in_px_1
+    a prov:Entity ;
+    rdfs:label "88" ;
+    prov:wasGeneratedBy rscript:enter_loop .
+
+rscript:in_px_2
+    a prov:Entity ;
+    rdfs:label "67" ;
+    prov:wasGeneratedBy rscript:enter_loop .
+
+rscript:in_px_3
+    a prov:Entity ;
+    rdfs:label "49" ;
+    prov:wasGeneratedBy rscript:enter_loop .
+
+rscript:in_px_4
+    a prov:Entity ;
+    rdfs:label "38" ;
+    prov:wasGeneratedBy rscript:enter_loop .
+
+rscript:in_px_5
+    a prov:Entity ;
+    rdfs:label "41" ;
+    prov:wasGeneratedBy rscript:enter_loop .
+
+rscript:in_px_6
+    a prov:Entity ;
+    rdfs:label "71" ;
+    prov:wasGeneratedBy rscript:enter_loop .
+
+rscript:in_px_7
+    a prov:Entity ;
+    rdfs:label "95" ;
+    prov:wasGeneratedBy rscript:enter_loop .
+
+rscript:in_px_8
+    a prov:Entity ;
+    rdfs:label "85" ;
+    prov:wasGeneratedBy rscript:enter_loop .
+
+rscript:in_px_9
+    a prov:Entity ;
+    rdfs:label "23" ;
+    prov:wasGeneratedBy rscript:enter_loop .
+
+rscript:in_raster
+    a prov:Entity ;
+    rdfs:label "Input Raster" .
+
+rscript:leave_loop
+    a prov:Activity ;
+    rdfs:label "Leave Loop" ;
+    prov:used rscript:out_px_1, rscript:out_px_2, rscript:out_px_3, rscript:out_px_4, rscript:out_px_5, rscript:out_px_6, rscript:out_px_7, rscript:out_px_8, rscript:out_px_9 .
+
+rscript:out_px_1
+    a prov:Entity ;
+    rdfs:label "1" ;
+    prov:wasGeneratedBy rscript:set_to_one_6faf48ca-147c-42bf-b87f-ce57ca382d8b .
+
+rscript:out_px_2
+    a prov:Entity ;
+    rdfs:label "0" ;
+    prov:wasGeneratedBy rscript:set_to_zero_2489b286-0eef-426e-a175-0f75bc21169e .
+
+rscript:out_px_3
+    a prov:Entity ;
+    rdfs:label "0" ;
+    prov:wasGeneratedBy rscript:set_to_zero_167bbe67-cae7-4e4a-8f83-8705ecf7abd7 .
+
+rscript:out_px_4
+    a prov:Entity ;
+    rdfs:label "0" ;
+    prov:wasGeneratedBy rscript:set_to_zero_3c0d0dcd-d06f-492d-a8ba-5865aade6429 .
+
+rscript:out_px_5
+    a prov:Entity ;
+    rdfs:label "0" ;
+    prov:wasGeneratedBy rscript:set_to_zero_fcefe2b1-9896-40b6-9397-916d9f8755f6 .
+
+rscript:out_px_6
+    a prov:Entity ;
+    rdfs:label "1" ;
+    prov:wasGeneratedBy rscript:set_to_one_8391ee83-f1ee-4fd7-a60a-57e41705339e .
+
+rscript:out_px_7
+    a prov:Entity ;
+    rdfs:label "1" ;
+    prov:wasGeneratedBy rscript:set_to_one_c7ad688e-6b23-4ad3-ade3-e88d8ff3fd94 .
+
+rscript:out_px_8
+    a prov:Entity ;
+    rdfs:label "1" ;
+    prov:wasGeneratedBy rscript:set_to_one_da2dab78-241d-4d3d-a88b-c25d2a4743ef .
+
+rscript:out_px_9
+    a prov:Entity ;
+    rdfs:label "0" ;
+    prov:wasGeneratedBy rscript:set_to_zero_fd46b08f-75da-4943-9e29-9940d028cacf .
+
+rscript:out_raster
+    a prov:Entity ;
+    rdfs:label "Mask Raster" ;
+    prov:wasGeneratedBy rscript:leave_loop .
+
+rscript:set_to_one_6faf48ca-147c-42bf-b87f-ce57ca382d8b
+    a prov:Activity ;
+    rdfs:label "Set Pixel to 1" ;
+    prov:used rscript:in_px_1 .
+
+rscript:set_to_one_8391ee83-f1ee-4fd7-a60a-57e41705339e
+    a prov:Activity ;
+    rdfs:label "Set Pixel to 1" ;
+    prov:used rscript:in_px_6 .
+
+rscript:set_to_one_c7ad688e-6b23-4ad3-ade3-e88d8ff3fd94
+    a prov:Activity ;
+    rdfs:label "Set Pixel to 1" ;
+    prov:used rscript:in_px_7 .
+
+rscript:set_to_one_da2dab78-241d-4d3d-a88b-c25d2a4743ef
+    a prov:Activity ;
+    rdfs:label "Set Pixel to 1" ;
+    prov:used rscript:in_px_8 .
+
+rscript:set_to_zero_167bbe67-cae7-4e4a-8f83-8705ecf7abd7
+    a prov:Activity ;
+    rdfs:label "Set Pixel to 0" ;
+    prov:used rscript:in_px_3 .
+
+rscript:set_to_zero_2489b286-0eef-426e-a175-0f75bc21169e
+    a prov:Activity ;
+    rdfs:label "Set Pixel to 0" ;
+    prov:used rscript:in_px_2 .
+
+rscript:set_to_zero_3c0d0dcd-d06f-492d-a8ba-5865aade6429
+    a prov:Activity ;
+    rdfs:label "Set Pixel to 0" ;
+    prov:used rscript:in_px_4 .
+
+rscript:set_to_zero_fcefe2b1-9896-40b6-9397-916d9f8755f6
+    a prov:Activity ;
+    rdfs:label "Set Pixel to 0" ;
+    prov:used rscript:in_px_5 .
+
+rscript:set_to_zero_fd46b08f-75da-4943-9e29-9940d028cacf
+    a prov:Activity ;
+    rdfs:label "Set Pixel to 0" ;
+    prov:used rscript:in_px_9 .
+
