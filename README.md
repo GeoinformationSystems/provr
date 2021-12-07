@@ -44,7 +44,7 @@ init_provenance_graph(namespace = "https://www.yournamespace.com/script#")
 
 PROV-O is RDF based, which means that every _Entity_, _Activity_ and _Agent_ has to have a unique ID that resolves to a URL-like structure called IRI. Every ID that you give to an _Entity_, _Activity_ or _Agent_ is concatenated to that very namespace you defined on graph initialization to build the IRI.
 
-The package implements the three PROV-O Node types _Entity_, _Activity_ and _Agent_ as R-environments with class like behavior. Each Node type must have an ID and can have a label and a description. If no label is given on instantiation the id is also used as label.
+The package implements the three PROV-O Node types _Entity_, _Activity_ and _Agent_ as R-environments with class like behavior. Each Node type must have an ID and can have a label and a description. If no label is given on instantiation the id is used as label.
 
 ### Example 1
 
