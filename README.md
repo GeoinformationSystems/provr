@@ -50,6 +50,7 @@ The package implements the three PROV-O Node types _Entity_, _Activity_ and _Age
 E.g. creating an _Entity_ with the ID 'input_raster', the label 'Input Raster' and the description 'A 10 x 10 raster with values ranging from 0 to 100' would look like this:
 
 <p align = "center">Listing 2</p>
+
 ```R
 in_raster_entity <- Entity(
     id = "input_raster",
