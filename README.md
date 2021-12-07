@@ -228,7 +228,7 @@ Fig. 5 shows the visualization of the resulting provenance graph.
 
 ## Wrapping up
 
-The package enables script developers to build concise provenance graphs that fits their needs. The obvious drawback to fully automated approaches, is the required typing to set up the nodes and relations. The fine-grained graph example showed that the user can automate the provenance generation to a certain degree. Control structures can be leveraged and values of variables can be used to build ids, labels and descriptions.
+The package enables script developers to build concise provenance graphs that fit their needs. The obvious drawback to fully automated approaches, is the required typing to set up the nodes and relations. The fine-grained graph example showed that the user can automate the provenance generation to a certain degree. Control structures can be leveraged and values of variables can be used to build ids, labels and descriptions.
 
 ### Dos and Don'ts / Pitfalls
 
