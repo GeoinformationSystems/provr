@@ -1,0 +1,3160 @@
+@base <localhost://> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rscript: <https://www.idiv.de/de/luckinet.html/geokur/#> .
+
+rscript:ahId_111
+    a prov:Entity ;
+    rdfs:label "ahID 111" .
+
+rscript:ahId_112
+    a prov:Entity ;
+    rdfs:label "ahID 112" .
+
+rscript:ahId_113
+    a prov:Entity ;
+    rdfs:label "ahID 113" .
+
+rscript:ahId_231
+    a prov:Entity ;
+    rdfs:label "ahID 231" .
+
+rscript:ahId_234
+    a prov:Entity ;
+    rdfs:label "ahID 234" .
+
+rscript:ahId_453
+    a prov:Entity ;
+    rdfs:label "ahID 453" .
+
+rscript:build_local_suit_map_111_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_111, rscript:limits_forest_forestry .
+
+rscript:build_local_suit_map_111_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_111, rscript:limits_forest_protected-zone .
+
+rscript:build_local_suit_map_111_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_111, rscript:limits_grasland_arable-land .
+
+rscript:build_local_suit_map_111_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_111, rscript:limits_grasland_pastures .
+
+rscript:build_local_suit_map_111_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_111, rscript:limits_grasland_protected-zone .
+
+rscript:build_local_suit_map_111_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_111, rscript:limits_mountains_quary .
+
+rscript:build_local_suit_map_112_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_112, rscript:limits_forest_forestry .
+
+rscript:build_local_suit_map_112_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_112, rscript:limits_forest_protected-zone .
+
+rscript:build_local_suit_map_112_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_112, rscript:limits_grasland_arable-land .
+
+rscript:build_local_suit_map_112_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_112, rscript:limits_grasland_pastures .
+
+rscript:build_local_suit_map_112_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_112, rscript:limits_grasland_protected-zone .
+
+rscript:build_local_suit_map_112_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_112, rscript:limits_mountains_quary .
+
+rscript:build_local_suit_map_113_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_113, rscript:limits_forest_forestry .
+
+rscript:build_local_suit_map_113_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_113, rscript:limits_forest_protected-zone .
+
+rscript:build_local_suit_map_113_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_113, rscript:limits_grasland_arable-land .
+
+rscript:build_local_suit_map_113_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_113, rscript:limits_grasland_pastures .
+
+rscript:build_local_suit_map_113_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_113, rscript:limits_grasland_protected-zone .
+
+rscript:build_local_suit_map_113_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_113, rscript:limits_mountains_quary .
+
+rscript:build_local_suit_map_231_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_231, rscript:limits_forest_forestry .
+
+rscript:build_local_suit_map_231_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_231, rscript:limits_forest_protected-zone .
+
+rscript:build_local_suit_map_231_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_231, rscript:limits_grasland_arable-land .
+
+rscript:build_local_suit_map_231_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_231, rscript:limits_grasland_pastures .
+
+rscript:build_local_suit_map_231_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_231, rscript:limits_grasland_protected-zone .
+
+rscript:build_local_suit_map_231_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_231, rscript:limits_mountains_quary .
+
+rscript:build_local_suit_map_234_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_234, rscript:limits_forest_forestry .
+
+rscript:build_local_suit_map_234_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_234, rscript:limits_forest_protected-zone .
+
+rscript:build_local_suit_map_234_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_234, rscript:limits_grasland_arable-land .
+
+rscript:build_local_suit_map_234_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_234, rscript:limits_grasland_pastures .
+
+rscript:build_local_suit_map_234_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_234, rscript:limits_grasland_protected-zone .
+
+rscript:build_local_suit_map_234_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_234, rscript:limits_mountains_quary .
+
+rscript:build_local_suit_map_453_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_453, rscript:limits_forest_forestry .
+
+rscript:build_local_suit_map_453_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_453, rscript:limits_forest_protected-zone .
+
+rscript:build_local_suit_map_453_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_453, rscript:limits_grasland_arable-land .
+
+rscript:build_local_suit_map_453_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_453, rscript:limits_grasland_pastures .
+
+rscript:build_local_suit_map_453_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_453, rscript:limits_grasland_protected-zone .
+
+rscript:build_local_suit_map_453_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:label "build local suitability map" ;
+    prov:used rscript:ahId_453, rscript:limits_mountains_quary .
+
+rscript:calc_corrected_map_sws_111_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_111_limits_forest_forestry, rscript:lu_minc_111_limits_forest_forestry, rscript:suit_map_maximum_111_limits_forest_forestry, rscript:suit_map_minimum_111_limits_forest_forestry .
+
+rscript:calc_corrected_map_sws_111_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_111_limits_forest_protected-zone, rscript:lu_minc_111_limits_forest_protected-zone, rscript:suit_map_maximum_111_limits_forest_protected-zone, rscript:suit_map_minimum_111_limits_forest_protected-zone .
+
+rscript:calc_corrected_map_sws_111_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_111_limits_grasland_arable-land, rscript:lu_minc_111_limits_grasland_arable-land, rscript:suit_map_maximum_111_limits_grasland_arable-land, rscript:suit_map_minimum_111_limits_grasland_arable-land .
+
+rscript:calc_corrected_map_sws_111_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_111_limits_grasland_pastures, rscript:lu_minc_111_limits_grasland_pastures, rscript:suit_map_maximum_111_limits_grasland_pastures, rscript:suit_map_minimum_111_limits_grasland_pastures .
+
+rscript:calc_corrected_map_sws_111_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_111_limits_grasland_protected-zone, rscript:lu_minc_111_limits_grasland_protected-zone, rscript:suit_map_maximum_111_limits_grasland_protected-zone, rscript:suit_map_minimum_111_limits_grasland_protected-zone .
+
+rscript:calc_corrected_map_sws_111_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_111_limits_mountains_quary, rscript:lu_minc_111_limits_mountains_quary, rscript:suit_map_maximum_111_limits_mountains_quary, rscript:suit_map_minimum_111_limits_mountains_quary .
+
+rscript:calc_corrected_map_sws_112_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_112_limits_forest_forestry, rscript:lu_minc_112_limits_forest_forestry, rscript:suit_map_maximum_112_limits_forest_forestry, rscript:suit_map_minimum_112_limits_forest_forestry .
+
+rscript:calc_corrected_map_sws_112_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_112_limits_forest_protected-zone, rscript:lu_minc_112_limits_forest_protected-zone, rscript:suit_map_maximum_112_limits_forest_protected-zone, rscript:suit_map_minimum_112_limits_forest_protected-zone .
+
+rscript:calc_corrected_map_sws_112_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_112_limits_grasland_arable-land, rscript:lu_minc_112_limits_grasland_arable-land, rscript:suit_map_maximum_112_limits_grasland_arable-land, rscript:suit_map_minimum_112_limits_grasland_arable-land .
+
+rscript:calc_corrected_map_sws_112_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_112_limits_grasland_pastures, rscript:lu_minc_112_limits_grasland_pastures, rscript:suit_map_maximum_112_limits_grasland_pastures, rscript:suit_map_minimum_112_limits_grasland_pastures .
+
+rscript:calc_corrected_map_sws_112_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_112_limits_grasland_protected-zone, rscript:lu_minc_112_limits_grasland_protected-zone, rscript:suit_map_maximum_112_limits_grasland_protected-zone, rscript:suit_map_minimum_112_limits_grasland_protected-zone .
+
+rscript:calc_corrected_map_sws_112_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_112_limits_mountains_quary, rscript:lu_minc_112_limits_mountains_quary, rscript:suit_map_maximum_112_limits_mountains_quary, rscript:suit_map_minimum_112_limits_mountains_quary .
+
+rscript:calc_corrected_map_sws_113_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_113_limits_forest_forestry, rscript:lu_minc_113_limits_forest_forestry, rscript:suit_map_maximum_113_limits_forest_forestry, rscript:suit_map_minimum_113_limits_forest_forestry .
+
+rscript:calc_corrected_map_sws_113_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_113_limits_forest_protected-zone, rscript:lu_minc_113_limits_forest_protected-zone, rscript:suit_map_maximum_113_limits_forest_protected-zone, rscript:suit_map_minimum_113_limits_forest_protected-zone .
+
+rscript:calc_corrected_map_sws_113_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_113_limits_grasland_arable-land, rscript:lu_minc_113_limits_grasland_arable-land, rscript:suit_map_maximum_113_limits_grasland_arable-land, rscript:suit_map_minimum_113_limits_grasland_arable-land .
+
+rscript:calc_corrected_map_sws_113_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_113_limits_grasland_pastures, rscript:lu_minc_113_limits_grasland_pastures, rscript:suit_map_maximum_113_limits_grasland_pastures, rscript:suit_map_minimum_113_limits_grasland_pastures .
+
+rscript:calc_corrected_map_sws_113_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_113_limits_grasland_protected-zone, rscript:lu_minc_113_limits_grasland_protected-zone, rscript:suit_map_maximum_113_limits_grasland_protected-zone, rscript:suit_map_minimum_113_limits_grasland_protected-zone .
+
+rscript:calc_corrected_map_sws_113_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_113_limits_mountains_quary, rscript:lu_minc_113_limits_mountains_quary, rscript:suit_map_maximum_113_limits_mountains_quary, rscript:suit_map_minimum_113_limits_mountains_quary .
+
+rscript:calc_corrected_map_sws_231_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_231_limits_forest_forestry, rscript:lu_minc_231_limits_forest_forestry, rscript:suit_map_maximum_231_limits_forest_forestry, rscript:suit_map_minimum_231_limits_forest_forestry .
+
+rscript:calc_corrected_map_sws_231_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_231_limits_forest_protected-zone, rscript:lu_minc_231_limits_forest_protected-zone, rscript:suit_map_maximum_231_limits_forest_protected-zone, rscript:suit_map_minimum_231_limits_forest_protected-zone .
+
+rscript:calc_corrected_map_sws_231_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_231_limits_grasland_arable-land, rscript:lu_minc_231_limits_grasland_arable-land, rscript:suit_map_maximum_231_limits_grasland_arable-land, rscript:suit_map_minimum_231_limits_grasland_arable-land .
+
+rscript:calc_corrected_map_sws_231_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_231_limits_grasland_pastures, rscript:lu_minc_231_limits_grasland_pastures, rscript:suit_map_maximum_231_limits_grasland_pastures, rscript:suit_map_minimum_231_limits_grasland_pastures .
+
+rscript:calc_corrected_map_sws_231_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_231_limits_grasland_protected-zone, rscript:lu_minc_231_limits_grasland_protected-zone, rscript:suit_map_maximum_231_limits_grasland_protected-zone, rscript:suit_map_minimum_231_limits_grasland_protected-zone .
+
+rscript:calc_corrected_map_sws_231_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_231_limits_mountains_quary, rscript:lu_minc_231_limits_mountains_quary, rscript:suit_map_maximum_231_limits_mountains_quary, rscript:suit_map_minimum_231_limits_mountains_quary .
+
+rscript:calc_corrected_map_sws_234_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_234_limits_forest_forestry, rscript:lu_minc_234_limits_forest_forestry, rscript:suit_map_maximum_234_limits_forest_forestry, rscript:suit_map_minimum_234_limits_forest_forestry .
+
+rscript:calc_corrected_map_sws_234_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_234_limits_forest_protected-zone, rscript:lu_minc_234_limits_forest_protected-zone, rscript:suit_map_maximum_234_limits_forest_protected-zone, rscript:suit_map_minimum_234_limits_forest_protected-zone .
+
+rscript:calc_corrected_map_sws_234_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_234_limits_grasland_arable-land, rscript:lu_minc_234_limits_grasland_arable-land, rscript:suit_map_maximum_234_limits_grasland_arable-land, rscript:suit_map_minimum_234_limits_grasland_arable-land .
+
+rscript:calc_corrected_map_sws_234_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_234_limits_grasland_pastures, rscript:lu_minc_234_limits_grasland_pastures, rscript:suit_map_maximum_234_limits_grasland_pastures, rscript:suit_map_minimum_234_limits_grasland_pastures .
+
+rscript:calc_corrected_map_sws_234_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_234_limits_grasland_protected-zone, rscript:lu_minc_234_limits_grasland_protected-zone, rscript:suit_map_maximum_234_limits_grasland_protected-zone, rscript:suit_map_minimum_234_limits_grasland_protected-zone .
+
+rscript:calc_corrected_map_sws_234_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_234_limits_mountains_quary, rscript:lu_minc_234_limits_mountains_quary, rscript:suit_map_maximum_234_limits_mountains_quary, rscript:suit_map_minimum_234_limits_mountains_quary .
+
+rscript:calc_corrected_map_sws_453_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_453_limits_forest_forestry, rscript:lu_minc_453_limits_forest_forestry, rscript:suit_map_maximum_453_limits_forest_forestry, rscript:suit_map_minimum_453_limits_forest_forestry .
+
+rscript:calc_corrected_map_sws_453_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_453_limits_forest_protected-zone, rscript:lu_minc_453_limits_forest_protected-zone, rscript:suit_map_maximum_453_limits_forest_protected-zone, rscript:suit_map_minimum_453_limits_forest_protected-zone .
+
+rscript:calc_corrected_map_sws_453_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_453_limits_grasland_arable-land, rscript:lu_minc_453_limits_grasland_arable-land, rscript:suit_map_maximum_453_limits_grasland_arable-land, rscript:suit_map_minimum_453_limits_grasland_arable-land .
+
+rscript:calc_corrected_map_sws_453_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_453_limits_grasland_pastures, rscript:lu_minc_453_limits_grasland_pastures, rscript:suit_map_maximum_453_limits_grasland_pastures, rscript:suit_map_minimum_453_limits_grasland_pastures .
+
+rscript:calc_corrected_map_sws_453_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_453_limits_grasland_protected-zone, rscript:lu_minc_453_limits_grasland_protected-zone, rscript:suit_map_maximum_453_limits_grasland_protected-zone, rscript:suit_map_minimum_453_limits_grasland_protected-zone .
+
+rscript:calc_corrected_map_sws_453_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:comment "LU_minc and LU_maxc are used to also calculate corrected mp_sws (mp_swsc). What happens here is that if there was more demand than supply in a given territory (and the lower limit was increased), mp_swsc will have higher values than mp_sws in that territory, and vice versa, it will have lower values. Finally, when summarising all values of a territory, they shall sum up to what had been specified in the actual demand. (Basically, I combine suitability with the census stats to get a map where the spatial pattern of the allocated amounts is determined by the relative differences in suitability (within the confines of the used landcover map) and where all pixels of a particular region sum up to the amount of demand for that area.)" ;
+    rdfs:label "calculate corrected suitablity weighted supply" ;
+    prov:used rscript:lu_maxc_453_limits_mountains_quary, rscript:lu_minc_453_limits_mountains_quary, rscript:suit_map_maximum_453_limits_mountains_quary, rscript:suit_map_minimum_453_limits_mountains_quary .
+
+rscript:calc_map_sws_111_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_forest_forestry, rscript:min_forest_forestry, rscript:suit_map_maximum_111_limits_forest_forestry, rscript:suit_map_minimum_111_limits_forest_forestry .
+
+rscript:calc_map_sws_111_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_forest_protected-zone, rscript:min_forest_protected-zone, rscript:suit_map_maximum_111_limits_forest_protected-zone, rscript:suit_map_minimum_111_limits_forest_protected-zone .
+
+rscript:calc_map_sws_111_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_grasland_arable-land, rscript:min_grasland_arable-land, rscript:suit_map_maximum_111_limits_grasland_arable-land, rscript:suit_map_minimum_111_limits_grasland_arable-land .
+
+rscript:calc_map_sws_111_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_grasland_pastures, rscript:min_grasland_pastures, rscript:suit_map_maximum_111_limits_grasland_pastures, rscript:suit_map_minimum_111_limits_grasland_pastures .
+
+rscript:calc_map_sws_111_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_grasland_protected-zone, rscript:min_grasland_protected-zone, rscript:suit_map_maximum_111_limits_grasland_protected-zone, rscript:suit_map_minimum_111_limits_grasland_protected-zone .
+
+rscript:calc_map_sws_111_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_mountains_quary, rscript:min_mountains_quary, rscript:suit_map_maximum_111_limits_mountains_quary, rscript:suit_map_minimum_111_limits_mountains_quary .
+
+rscript:calc_map_sws_112_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_forest_forestry, rscript:min_forest_forestry, rscript:suit_map_maximum_112_limits_forest_forestry, rscript:suit_map_minimum_112_limits_forest_forestry .
+
+rscript:calc_map_sws_112_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_forest_protected-zone, rscript:min_forest_protected-zone, rscript:suit_map_maximum_112_limits_forest_protected-zone, rscript:suit_map_minimum_112_limits_forest_protected-zone .
+
+rscript:calc_map_sws_112_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_grasland_arable-land, rscript:min_grasland_arable-land, rscript:suit_map_maximum_112_limits_grasland_arable-land, rscript:suit_map_minimum_112_limits_grasland_arable-land .
+
+rscript:calc_map_sws_112_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_grasland_pastures, rscript:min_grasland_pastures, rscript:suit_map_maximum_112_limits_grasland_pastures, rscript:suit_map_minimum_112_limits_grasland_pastures .
+
+rscript:calc_map_sws_112_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_grasland_protected-zone, rscript:min_grasland_protected-zone, rscript:suit_map_maximum_112_limits_grasland_protected-zone, rscript:suit_map_minimum_112_limits_grasland_protected-zone .
+
+rscript:calc_map_sws_112_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_mountains_quary, rscript:min_mountains_quary, rscript:suit_map_maximum_112_limits_mountains_quary, rscript:suit_map_minimum_112_limits_mountains_quary .
+
+rscript:calc_map_sws_113_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_forest_forestry, rscript:min_forest_forestry, rscript:suit_map_maximum_113_limits_forest_forestry, rscript:suit_map_minimum_113_limits_forest_forestry .
+
+rscript:calc_map_sws_113_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_forest_protected-zone, rscript:min_forest_protected-zone, rscript:suit_map_maximum_113_limits_forest_protected-zone, rscript:suit_map_minimum_113_limits_forest_protected-zone .
+
+rscript:calc_map_sws_113_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_grasland_arable-land, rscript:min_grasland_arable-land, rscript:suit_map_maximum_113_limits_grasland_arable-land, rscript:suit_map_minimum_113_limits_grasland_arable-land .
+
+rscript:calc_map_sws_113_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_grasland_pastures, rscript:min_grasland_pastures, rscript:suit_map_maximum_113_limits_grasland_pastures, rscript:suit_map_minimum_113_limits_grasland_pastures .
+
+rscript:calc_map_sws_113_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_grasland_protected-zone, rscript:min_grasland_protected-zone, rscript:suit_map_maximum_113_limits_grasland_protected-zone, rscript:suit_map_minimum_113_limits_grasland_protected-zone .
+
+rscript:calc_map_sws_113_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_mountains_quary, rscript:min_mountains_quary, rscript:suit_map_maximum_113_limits_mountains_quary, rscript:suit_map_minimum_113_limits_mountains_quary .
+
+rscript:calc_map_sws_231_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_forest_forestry, rscript:min_forest_forestry, rscript:suit_map_maximum_231_limits_forest_forestry, rscript:suit_map_minimum_231_limits_forest_forestry .
+
+rscript:calc_map_sws_231_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_forest_protected-zone, rscript:min_forest_protected-zone, rscript:suit_map_maximum_231_limits_forest_protected-zone, rscript:suit_map_minimum_231_limits_forest_protected-zone .
+
+rscript:calc_map_sws_231_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_grasland_arable-land, rscript:min_grasland_arable-land, rscript:suit_map_maximum_231_limits_grasland_arable-land, rscript:suit_map_minimum_231_limits_grasland_arable-land .
+
+rscript:calc_map_sws_231_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_grasland_pastures, rscript:min_grasland_pastures, rscript:suit_map_maximum_231_limits_grasland_pastures, rscript:suit_map_minimum_231_limits_grasland_pastures .
+
+rscript:calc_map_sws_231_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_grasland_protected-zone, rscript:min_grasland_protected-zone, rscript:suit_map_maximum_231_limits_grasland_protected-zone, rscript:suit_map_minimum_231_limits_grasland_protected-zone .
+
+rscript:calc_map_sws_231_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_mountains_quary, rscript:min_mountains_quary, rscript:suit_map_maximum_231_limits_mountains_quary, rscript:suit_map_minimum_231_limits_mountains_quary .
+
+rscript:calc_map_sws_234_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_forest_forestry, rscript:min_forest_forestry, rscript:suit_map_maximum_234_limits_forest_forestry, rscript:suit_map_minimum_234_limits_forest_forestry .
+
+rscript:calc_map_sws_234_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_forest_protected-zone, rscript:min_forest_protected-zone, rscript:suit_map_maximum_234_limits_forest_protected-zone, rscript:suit_map_minimum_234_limits_forest_protected-zone .
+
+rscript:calc_map_sws_234_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_grasland_arable-land, rscript:min_grasland_arable-land, rscript:suit_map_maximum_234_limits_grasland_arable-land, rscript:suit_map_minimum_234_limits_grasland_arable-land .
+
+rscript:calc_map_sws_234_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_grasland_pastures, rscript:min_grasland_pastures, rscript:suit_map_maximum_234_limits_grasland_pastures, rscript:suit_map_minimum_234_limits_grasland_pastures .
+
+rscript:calc_map_sws_234_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_grasland_protected-zone, rscript:min_grasland_protected-zone, rscript:suit_map_maximum_234_limits_grasland_protected-zone, rscript:suit_map_minimum_234_limits_grasland_protected-zone .
+
+rscript:calc_map_sws_234_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_mountains_quary, rscript:min_mountains_quary, rscript:suit_map_maximum_234_limits_mountains_quary, rscript:suit_map_minimum_234_limits_mountains_quary .
+
+rscript:calc_map_sws_453_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_forest_forestry, rscript:min_forest_forestry, rscript:suit_map_maximum_453_limits_forest_forestry, rscript:suit_map_minimum_453_limits_forest_forestry .
+
+rscript:calc_map_sws_453_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_forest_protected-zone, rscript:min_forest_protected-zone, rscript:suit_map_maximum_453_limits_forest_protected-zone, rscript:suit_map_minimum_453_limits_forest_protected-zone .
+
+rscript:calc_map_sws_453_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_grasland_arable-land, rscript:min_grasland_arable-land, rscript:suit_map_maximum_453_limits_grasland_arable-land, rscript:suit_map_minimum_453_limits_grasland_arable-land .
+
+rscript:calc_map_sws_453_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_grasland_pastures, rscript:min_grasland_pastures, rscript:suit_map_maximum_453_limits_grasland_pastures, rscript:suit_map_minimum_453_limits_grasland_pastures .
+
+rscript:calc_map_sws_453_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_grasland_protected-zone, rscript:min_grasland_protected-zone, rscript:suit_map_maximum_453_limits_grasland_protected-zone, rscript:suit_map_minimum_453_limits_grasland_protected-zone .
+
+rscript:calc_map_sws_453_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:comment "calculate mp_sws (suitability weighted supply) by min-max-normalising mp_suit between LU_max and LU_min." ;
+    rdfs:label "calculate suitablity weighted supply" ;
+    prov:used rscript:max_mountains_quary, rscript:min_mountains_quary, rscript:suit_map_maximum_453_limits_mountains_quary, rscript:suit_map_minimum_453_limits_mountains_quary .
+
+rscript:calc_supply_demand_ratio_111_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_111, rscript:map_sws_111_limits_forest_forestry .
+
+rscript:calc_supply_demand_ratio_111_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_111, rscript:map_sws_111_limits_forest_protected-zone .
+
+rscript:calc_supply_demand_ratio_111_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_111, rscript:map_sws_111_limits_grasland_arable-land .
+
+rscript:calc_supply_demand_ratio_111_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_111, rscript:map_sws_111_limits_grasland_pastures .
+
+rscript:calc_supply_demand_ratio_111_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_111, rscript:map_sws_111_limits_grasland_protected-zone .
+
+rscript:calc_supply_demand_ratio_111_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_111, rscript:map_sws_111_limits_mountains_quary .
+
+rscript:calc_supply_demand_ratio_112_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_112, rscript:map_sws_112_limits_forest_forestry .
+
+rscript:calc_supply_demand_ratio_112_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_112, rscript:map_sws_112_limits_forest_protected-zone .
+
+rscript:calc_supply_demand_ratio_112_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_112, rscript:map_sws_112_limits_grasland_arable-land .
+
+rscript:calc_supply_demand_ratio_112_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_112, rscript:map_sws_112_limits_grasland_pastures .
+
+rscript:calc_supply_demand_ratio_112_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_112, rscript:map_sws_112_limits_grasland_protected-zone .
+
+rscript:calc_supply_demand_ratio_112_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_112, rscript:map_sws_112_limits_mountains_quary .
+
+rscript:calc_supply_demand_ratio_113_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_113, rscript:map_sws_113_limits_forest_forestry .
+
+rscript:calc_supply_demand_ratio_113_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_113, rscript:map_sws_113_limits_forest_protected-zone .
+
+rscript:calc_supply_demand_ratio_113_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_113, rscript:map_sws_113_limits_grasland_arable-land .
+
+rscript:calc_supply_demand_ratio_113_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_113, rscript:map_sws_113_limits_grasland_pastures .
+
+rscript:calc_supply_demand_ratio_113_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_113, rscript:map_sws_113_limits_grasland_protected-zone .
+
+rscript:calc_supply_demand_ratio_113_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_113, rscript:map_sws_113_limits_mountains_quary .
+
+rscript:calc_supply_demand_ratio_231_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_231, rscript:map_sws_231_limits_forest_forestry .
+
+rscript:calc_supply_demand_ratio_231_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_231, rscript:map_sws_231_limits_forest_protected-zone .
+
+rscript:calc_supply_demand_ratio_231_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_231, rscript:map_sws_231_limits_grasland_arable-land .
+
+rscript:calc_supply_demand_ratio_231_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_231, rscript:map_sws_231_limits_grasland_pastures .
+
+rscript:calc_supply_demand_ratio_231_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_231, rscript:map_sws_231_limits_grasland_protected-zone .
+
+rscript:calc_supply_demand_ratio_231_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_231, rscript:map_sws_231_limits_mountains_quary .
+
+rscript:calc_supply_demand_ratio_234_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_234, rscript:map_sws_234_limits_forest_forestry .
+
+rscript:calc_supply_demand_ratio_234_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_234, rscript:map_sws_234_limits_forest_protected-zone .
+
+rscript:calc_supply_demand_ratio_234_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_234, rscript:map_sws_234_limits_grasland_arable-land .
+
+rscript:calc_supply_demand_ratio_234_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_234, rscript:map_sws_234_limits_grasland_pastures .
+
+rscript:calc_supply_demand_ratio_234_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_234, rscript:map_sws_234_limits_grasland_protected-zone .
+
+rscript:calc_supply_demand_ratio_234_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_234, rscript:map_sws_234_limits_mountains_quary .
+
+rscript:calc_supply_demand_ratio_453_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_453, rscript:map_sws_453_limits_forest_forestry .
+
+rscript:calc_supply_demand_ratio_453_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_453, rscript:map_sws_453_limits_forest_protected-zone .
+
+rscript:calc_supply_demand_ratio_453_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_453, rscript:map_sws_453_limits_grasland_arable-land .
+
+rscript:calc_supply_demand_ratio_453_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_453, rscript:map_sws_453_limits_grasland_pastures .
+
+rscript:calc_supply_demand_ratio_453_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_453, rscript:map_sws_453_limits_grasland_protected-zone .
+
+rscript:calc_supply_demand_ratio_453_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:comment "calculate the ratio between pure suitability weighted supply and the actual demand (census in that area)." ;
+    rdfs:label "calculate supply/demand ratio" ;
+    prov:used rscript:censusId_453, rscript:map_sws_453_limits_mountains_quary .
+
+rscript:censusId_111
+    a prov:Entity ;
+    rdfs:label "census 111" .
+
+rscript:censusId_112
+    a prov:Entity ;
+    rdfs:label "census 112" .
+
+rscript:censusId_113
+    a prov:Entity ;
+    rdfs:label "census 113" .
+
+rscript:censusId_231
+    a prov:Entity ;
+    rdfs:label "census 231" .
+
+rscript:censusId_234
+    a prov:Entity ;
+    rdfs:label "census 234" .
+
+rscript:censusId_453
+    a prov:Entity ;
+    rdfs:label "census 453" .
+
+rscript:corrected_map_sws_111_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 111  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_111_limits_forest_forestry .
+
+rscript:corrected_map_sws_111_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 111  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_111_limits_forest_protected-zone .
+
+rscript:corrected_map_sws_111_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 111  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_111_limits_grasland_arable-land .
+
+rscript:corrected_map_sws_111_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 111  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_111_limits_grasland_pastures .
+
+rscript:corrected_map_sws_111_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 111  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_111_limits_grasland_protected-zone .
+
+rscript:corrected_map_sws_111_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 111  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_111_limits_mountains_quary .
+
+rscript:corrected_map_sws_112_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 112  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_112_limits_forest_forestry .
+
+rscript:corrected_map_sws_112_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 112  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_112_limits_forest_protected-zone .
+
+rscript:corrected_map_sws_112_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 112  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_112_limits_grasland_arable-land .
+
+rscript:corrected_map_sws_112_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 112  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_112_limits_grasland_pastures .
+
+rscript:corrected_map_sws_112_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 112  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_112_limits_grasland_protected-zone .
+
+rscript:corrected_map_sws_112_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 112  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_112_limits_mountains_quary .
+
+rscript:corrected_map_sws_113_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 113  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_113_limits_forest_forestry .
+
+rscript:corrected_map_sws_113_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 113  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_113_limits_forest_protected-zone .
+
+rscript:corrected_map_sws_113_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 113  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_113_limits_grasland_arable-land .
+
+rscript:corrected_map_sws_113_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 113  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_113_limits_grasland_pastures .
+
+rscript:corrected_map_sws_113_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 113  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_113_limits_grasland_protected-zone .
+
+rscript:corrected_map_sws_113_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 113  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_113_limits_mountains_quary .
+
+rscript:corrected_map_sws_231_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 231  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_231_limits_forest_forestry .
+
+rscript:corrected_map_sws_231_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 231  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_231_limits_forest_protected-zone .
+
+rscript:corrected_map_sws_231_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 231  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_231_limits_grasland_arable-land .
+
+rscript:corrected_map_sws_231_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 231  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_231_limits_grasland_pastures .
+
+rscript:corrected_map_sws_231_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 231  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_231_limits_grasland_protected-zone .
+
+rscript:corrected_map_sws_231_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 231  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_231_limits_mountains_quary .
+
+rscript:corrected_map_sws_234_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 234  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_234_limits_forest_forestry .
+
+rscript:corrected_map_sws_234_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 234  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_234_limits_forest_protected-zone .
+
+rscript:corrected_map_sws_234_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 234  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_234_limits_grasland_arable-land .
+
+rscript:corrected_map_sws_234_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 234  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_234_limits_grasland_pastures .
+
+rscript:corrected_map_sws_234_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 234  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_234_limits_grasland_protected-zone .
+
+rscript:corrected_map_sws_234_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 234  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_234_limits_mountains_quary .
+
+rscript:corrected_map_sws_453_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 453  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_453_limits_forest_forestry .
+
+rscript:corrected_map_sws_453_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 453  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_453_limits_forest_protected-zone .
+
+rscript:corrected_map_sws_453_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 453  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_453_limits_grasland_arable-land .
+
+rscript:corrected_map_sws_453_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 453  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_453_limits_grasland_pastures .
+
+rscript:corrected_map_sws_453_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 453  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_453_limits_grasland_protected-zone .
+
+rscript:corrected_map_sws_453_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "corrected map of suitablility weighted supply 453  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:calc_corrected_map_sws_453_limits_mountains_quary .
+
+rscript:derive_suit_max_111_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_111_limits_forest_forestry .
+
+rscript:derive_suit_max_111_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_111_limits_forest_protected-zone .
+
+rscript:derive_suit_max_111_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_111_limits_grasland_arable-land .
+
+rscript:derive_suit_max_111_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_111_limits_grasland_pastures .
+
+rscript:derive_suit_max_111_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_111_limits_grasland_protected-zone .
+
+rscript:derive_suit_max_111_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_111_limits_mountains_quary .
+
+rscript:derive_suit_max_112_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_112_limits_forest_forestry .
+
+rscript:derive_suit_max_112_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_112_limits_forest_protected-zone .
+
+rscript:derive_suit_max_112_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_112_limits_grasland_arable-land .
+
+rscript:derive_suit_max_112_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_112_limits_grasland_pastures .
+
+rscript:derive_suit_max_112_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_112_limits_grasland_protected-zone .
+
+rscript:derive_suit_max_112_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_112_limits_mountains_quary .
+
+rscript:derive_suit_max_113_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_113_limits_forest_forestry .
+
+rscript:derive_suit_max_113_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_113_limits_forest_protected-zone .
+
+rscript:derive_suit_max_113_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_113_limits_grasland_arable-land .
+
+rscript:derive_suit_max_113_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_113_limits_grasland_pastures .
+
+rscript:derive_suit_max_113_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_113_limits_grasland_protected-zone .
+
+rscript:derive_suit_max_113_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_113_limits_mountains_quary .
+
+rscript:derive_suit_max_231_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_231_limits_forest_forestry .
+
+rscript:derive_suit_max_231_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_231_limits_forest_protected-zone .
+
+rscript:derive_suit_max_231_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_231_limits_grasland_arable-land .
+
+rscript:derive_suit_max_231_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_231_limits_grasland_pastures .
+
+rscript:derive_suit_max_231_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_231_limits_grasland_protected-zone .
+
+rscript:derive_suit_max_231_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_231_limits_mountains_quary .
+
+rscript:derive_suit_max_234_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_234_limits_forest_forestry .
+
+rscript:derive_suit_max_234_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_234_limits_forest_protected-zone .
+
+rscript:derive_suit_max_234_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_234_limits_grasland_arable-land .
+
+rscript:derive_suit_max_234_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_234_limits_grasland_pastures .
+
+rscript:derive_suit_max_234_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_234_limits_grasland_protected-zone .
+
+rscript:derive_suit_max_234_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_234_limits_mountains_quary .
+
+rscript:derive_suit_max_453_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_453_limits_forest_forestry .
+
+rscript:derive_suit_max_453_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_453_limits_forest_protected-zone .
+
+rscript:derive_suit_max_453_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_453_limits_grasland_arable-land .
+
+rscript:derive_suit_max_453_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_453_limits_grasland_pastures .
+
+rscript:derive_suit_max_453_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_453_limits_grasland_protected-zone .
+
+rscript:derive_suit_max_453_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:label "derive suitability maximum" ;
+    prov:used rscript:suit_map_453_limits_mountains_quary .
+
+rscript:derive_suit_min_111_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_111_limits_forest_forestry .
+
+rscript:derive_suit_min_111_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_111_limits_forest_protected-zone .
+
+rscript:derive_suit_min_111_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_111_limits_grasland_arable-land .
+
+rscript:derive_suit_min_111_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_111_limits_grasland_pastures .
+
+rscript:derive_suit_min_111_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_111_limits_grasland_protected-zone .
+
+rscript:derive_suit_min_111_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_111_limits_mountains_quary .
+
+rscript:derive_suit_min_112_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_112_limits_forest_forestry .
+
+rscript:derive_suit_min_112_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_112_limits_forest_protected-zone .
+
+rscript:derive_suit_min_112_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_112_limits_grasland_arable-land .
+
+rscript:derive_suit_min_112_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_112_limits_grasland_pastures .
+
+rscript:derive_suit_min_112_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_112_limits_grasland_protected-zone .
+
+rscript:derive_suit_min_112_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_112_limits_mountains_quary .
+
+rscript:derive_suit_min_113_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_113_limits_forest_forestry .
+
+rscript:derive_suit_min_113_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_113_limits_forest_protected-zone .
+
+rscript:derive_suit_min_113_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_113_limits_grasland_arable-land .
+
+rscript:derive_suit_min_113_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_113_limits_grasland_pastures .
+
+rscript:derive_suit_min_113_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_113_limits_grasland_protected-zone .
+
+rscript:derive_suit_min_113_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_113_limits_mountains_quary .
+
+rscript:derive_suit_min_231_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_231_limits_forest_forestry .
+
+rscript:derive_suit_min_231_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_231_limits_forest_protected-zone .
+
+rscript:derive_suit_min_231_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_231_limits_grasland_arable-land .
+
+rscript:derive_suit_min_231_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_231_limits_grasland_pastures .
+
+rscript:derive_suit_min_231_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_231_limits_grasland_protected-zone .
+
+rscript:derive_suit_min_231_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_231_limits_mountains_quary .
+
+rscript:derive_suit_min_234_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_234_limits_forest_forestry .
+
+rscript:derive_suit_min_234_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_234_limits_forest_protected-zone .
+
+rscript:derive_suit_min_234_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_234_limits_grasland_arable-land .
+
+rscript:derive_suit_min_234_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_234_limits_grasland_pastures .
+
+rscript:derive_suit_min_234_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_234_limits_grasland_protected-zone .
+
+rscript:derive_suit_min_234_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_234_limits_mountains_quary .
+
+rscript:derive_suit_min_453_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_453_limits_forest_forestry .
+
+rscript:derive_suit_min_453_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_453_limits_forest_protected-zone .
+
+rscript:derive_suit_min_453_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_453_limits_grasland_arable-land .
+
+rscript:derive_suit_min_453_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_453_limits_grasland_pastures .
+
+rscript:derive_suit_min_453_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_453_limits_grasland_protected-zone .
+
+rscript:derive_suit_min_453_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:label "derive siutability minimum" ;
+    prov:used rscript:suit_map_453_limits_mountains_quary .
+
+rscript:keep_lu_limit_111_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:max_forest_forestry, rscript:ratio_sws_census_111_limits_forest_forestry .
+
+rscript:keep_lu_limit_111_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:max_forest_protected-zone, rscript:ratio_sws_census_111_limits_forest_protected-zone .
+
+rscript:keep_lu_limit_111_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:min_grasland_arable-land, rscript:ratio_sws_census_111_limits_grasland_arable-land .
+
+rscript:keep_lu_limit_111_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:min_grasland_pastures, rscript:ratio_sws_census_111_limits_grasland_pastures .
+
+rscript:keep_lu_limit_111_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:max_grasland_protected-zone, rscript:ratio_sws_census_111_limits_grasland_protected-zone .
+
+rscript:keep_lu_limit_111_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:max_mountains_quary, rscript:ratio_sws_census_111_limits_mountains_quary .
+
+rscript:keep_lu_limit_112_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:min_forest_forestry, rscript:ratio_sws_census_112_limits_forest_forestry .
+
+rscript:keep_lu_limit_112_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:min_forest_protected-zone, rscript:ratio_sws_census_112_limits_forest_protected-zone .
+
+rscript:keep_lu_limit_112_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:max_grasland_arable-land, rscript:ratio_sws_census_112_limits_grasland_arable-land .
+
+rscript:keep_lu_limit_112_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:max_grasland_pastures, rscript:ratio_sws_census_112_limits_grasland_pastures .
+
+rscript:keep_lu_limit_112_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:min_grasland_protected-zone, rscript:ratio_sws_census_112_limits_grasland_protected-zone .
+
+rscript:keep_lu_limit_112_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:min_mountains_quary, rscript:ratio_sws_census_112_limits_mountains_quary .
+
+rscript:keep_lu_limit_113_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:min_forest_forestry, rscript:ratio_sws_census_113_limits_forest_forestry .
+
+rscript:keep_lu_limit_113_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:max_forest_protected-zone, rscript:ratio_sws_census_113_limits_forest_protected-zone .
+
+rscript:keep_lu_limit_113_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:min_grasland_arable-land, rscript:ratio_sws_census_113_limits_grasland_arable-land .
+
+rscript:keep_lu_limit_113_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:min_grasland_pastures, rscript:ratio_sws_census_113_limits_grasland_pastures .
+
+rscript:keep_lu_limit_113_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:min_grasland_protected-zone, rscript:ratio_sws_census_113_limits_grasland_protected-zone .
+
+rscript:keep_lu_limit_113_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:min_mountains_quary, rscript:ratio_sws_census_113_limits_mountains_quary .
+
+rscript:keep_lu_limit_231_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:max_forest_forestry, rscript:ratio_sws_census_231_limits_forest_forestry .
+
+rscript:keep_lu_limit_231_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:min_forest_protected-zone, rscript:ratio_sws_census_231_limits_forest_protected-zone .
+
+rscript:keep_lu_limit_231_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:max_grasland_arable-land, rscript:ratio_sws_census_231_limits_grasland_arable-land .
+
+rscript:keep_lu_limit_231_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:max_grasland_pastures, rscript:ratio_sws_census_231_limits_grasland_pastures .
+
+rscript:keep_lu_limit_231_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:max_grasland_protected-zone, rscript:ratio_sws_census_231_limits_grasland_protected-zone .
+
+rscript:keep_lu_limit_231_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:min_mountains_quary, rscript:ratio_sws_census_231_limits_mountains_quary .
+
+rscript:keep_lu_limit_234_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:max_forest_forestry, rscript:ratio_sws_census_234_limits_forest_forestry .
+
+rscript:keep_lu_limit_234_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:max_forest_protected-zone, rscript:ratio_sws_census_234_limits_forest_protected-zone .
+
+rscript:keep_lu_limit_234_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:max_grasland_arable-land, rscript:ratio_sws_census_234_limits_grasland_arable-land .
+
+rscript:keep_lu_limit_234_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:max_grasland_pastures, rscript:ratio_sws_census_234_limits_grasland_pastures .
+
+rscript:keep_lu_limit_234_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:min_grasland_protected-zone, rscript:ratio_sws_census_234_limits_grasland_protected-zone .
+
+rscript:keep_lu_limit_234_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:max_mountains_quary, rscript:ratio_sws_census_234_limits_mountains_quary .
+
+rscript:keep_lu_limit_453_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:min_forest_forestry, rscript:ratio_sws_census_453_limits_forest_forestry .
+
+rscript:keep_lu_limit_453_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:max_forest_protected-zone, rscript:ratio_sws_census_453_limits_forest_protected-zone .
+
+rscript:keep_lu_limit_453_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:min_grasland_arable-land, rscript:ratio_sws_census_453_limits_grasland_arable-land .
+
+rscript:keep_lu_limit_453_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:max_grasland_pastures, rscript:ratio_sws_census_453_limits_grasland_pastures .
+
+rscript:keep_lu_limit_453_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:min_grasland_protected-zone, rscript:ratio_sws_census_453_limits_grasland_protected-zone .
+
+rscript:keep_lu_limit_453_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:label "keep LU limit" ;
+    prov:used rscript:max_mountains_quary, rscript:ratio_sws_census_453_limits_mountains_quary .
+
+rscript:limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "limits: forest | forestry" .
+
+rscript:limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "limits: forest | protected zone" .
+
+rscript:limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "limits: grasland | arable land" .
+
+rscript:limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "limits: grasland | pastures" .
+
+rscript:limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "limits: grasland | protected zone" .
+
+rscript:limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "limits: mountains | quary" .
+
+rscript:lu_maxc_111_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "LU maxc 111  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_111_limits_forest_forestry .
+
+rscript:lu_maxc_111_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "LU maxc 111  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_111_limits_forest_protected-zone .
+
+rscript:lu_maxc_111_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "LU maxc 111  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_111_limits_grasland_arable-land .
+
+rscript:lu_maxc_111_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "LU maxc 111  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_111_limits_grasland_pastures .
+
+rscript:lu_maxc_111_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "LU maxc 111  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_111_limits_grasland_protected-zone .
+
+rscript:lu_maxc_111_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "LU maxc 111  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_111_limits_mountains_quary .
+
+rscript:lu_maxc_112_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "LU maxc 112  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_112_limits_forest_forestry .
+
+rscript:lu_maxc_112_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "LU maxc 112  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_112_limits_forest_protected-zone .
+
+rscript:lu_maxc_112_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "LU maxc 112  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_112_limits_grasland_arable-land .
+
+rscript:lu_maxc_112_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "LU maxc 112  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_112_limits_grasland_pastures .
+
+rscript:lu_maxc_112_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "LU maxc 112  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_112_limits_grasland_protected-zone .
+
+rscript:lu_maxc_112_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "LU maxc 112  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_112_limits_mountains_quary .
+
+rscript:lu_maxc_113_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "LU maxc 113  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_113_limits_forest_forestry .
+
+rscript:lu_maxc_113_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "LU maxc 113  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_113_limits_forest_protected-zone .
+
+rscript:lu_maxc_113_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "LU maxc 113  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_113_limits_grasland_arable-land .
+
+rscript:lu_maxc_113_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "LU maxc 113  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_113_limits_grasland_pastures .
+
+rscript:lu_maxc_113_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "LU maxc 113  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_113_limits_grasland_protected-zone .
+
+rscript:lu_maxc_113_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "LU maxc 113  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_113_limits_mountains_quary .
+
+rscript:lu_maxc_231_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "LU maxc 231  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_231_limits_forest_forestry .
+
+rscript:lu_maxc_231_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "LU maxc 231  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_231_limits_forest_protected-zone .
+
+rscript:lu_maxc_231_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "LU maxc 231  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_231_limits_grasland_arable-land .
+
+rscript:lu_maxc_231_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "LU maxc 231  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_231_limits_grasland_pastures .
+
+rscript:lu_maxc_231_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "LU maxc 231  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_231_limits_grasland_protected-zone .
+
+rscript:lu_maxc_231_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "LU maxc 231  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_231_limits_mountains_quary .
+
+rscript:lu_maxc_234_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "LU maxc 234  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_234_limits_forest_forestry .
+
+rscript:lu_maxc_234_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "LU maxc 234  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_234_limits_forest_protected-zone .
+
+rscript:lu_maxc_234_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "LU maxc 234  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_234_limits_grasland_arable-land .
+
+rscript:lu_maxc_234_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "LU maxc 234  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_234_limits_grasland_pastures .
+
+rscript:lu_maxc_234_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "LU maxc 234  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_234_limits_grasland_protected-zone .
+
+rscript:lu_maxc_234_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "LU maxc 234  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_234_limits_mountains_quary .
+
+rscript:lu_maxc_453_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "LU maxc 453  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_453_limits_forest_forestry .
+
+rscript:lu_maxc_453_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "LU maxc 453  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_453_limits_forest_protected-zone .
+
+rscript:lu_maxc_453_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "LU maxc 453  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_453_limits_grasland_arable-land .
+
+rscript:lu_maxc_453_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "LU maxc 453  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_453_limits_grasland_pastures .
+
+rscript:lu_maxc_453_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "LU maxc 453  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_453_limits_grasland_protected-zone .
+
+rscript:lu_maxc_453_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "LU maxc 453  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_453_limits_mountains_quary .
+
+rscript:lu_minc_111_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "LU minc 111  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_111_limits_forest_forestry .
+
+rscript:lu_minc_111_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "LU minc 111  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_111_limits_forest_protected-zone .
+
+rscript:lu_minc_111_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "LU minc 111  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_111_limits_grasland_arable-land .
+
+rscript:lu_minc_111_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "LU minc 111  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_111_limits_grasland_pastures .
+
+rscript:lu_minc_111_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "LU minc 111  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_111_limits_grasland_protected-zone .
+
+rscript:lu_minc_111_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "LU minc 111  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_111_limits_mountains_quary .
+
+rscript:lu_minc_112_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "LU minc 112  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_112_limits_forest_forestry .
+
+rscript:lu_minc_112_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "LU minc 112  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_112_limits_forest_protected-zone .
+
+rscript:lu_minc_112_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "LU minc 112  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_112_limits_grasland_arable-land .
+
+rscript:lu_minc_112_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "LU minc 112  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_112_limits_grasland_pastures .
+
+rscript:lu_minc_112_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "LU minc 112  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_112_limits_grasland_protected-zone .
+
+rscript:lu_minc_112_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "LU minc 112  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_112_limits_mountains_quary .
+
+rscript:lu_minc_113_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "LU minc 113  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_113_limits_forest_forestry .
+
+rscript:lu_minc_113_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "LU minc 113  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_113_limits_forest_protected-zone .
+
+rscript:lu_minc_113_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "LU minc 113  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_113_limits_grasland_arable-land .
+
+rscript:lu_minc_113_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "LU minc 113  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_113_limits_grasland_pastures .
+
+rscript:lu_minc_113_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "LU minc 113  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_113_limits_grasland_protected-zone .
+
+rscript:lu_minc_113_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "LU minc 113  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_113_limits_mountains_quary .
+
+rscript:lu_minc_231_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "LU minc 231  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_231_limits_forest_forestry .
+
+rscript:lu_minc_231_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "LU minc 231  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_231_limits_forest_protected-zone .
+
+rscript:lu_minc_231_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "LU minc 231  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_231_limits_grasland_arable-land .
+
+rscript:lu_minc_231_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "LU minc 231  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_231_limits_grasland_pastures .
+
+rscript:lu_minc_231_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "LU minc 231  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_231_limits_grasland_protected-zone .
+
+rscript:lu_minc_231_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "LU minc 231  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_231_limits_mountains_quary .
+
+rscript:lu_minc_234_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "LU minc 234  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_234_limits_forest_forestry .
+
+rscript:lu_minc_234_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "LU minc 234  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_234_limits_forest_protected-zone .
+
+rscript:lu_minc_234_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "LU minc 234  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_234_limits_grasland_arable-land .
+
+rscript:lu_minc_234_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "LU minc 234  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_234_limits_grasland_pastures .
+
+rscript:lu_minc_234_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "LU minc 234  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_234_limits_grasland_protected-zone .
+
+rscript:lu_minc_234_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "LU minc 234  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_234_limits_mountains_quary .
+
+rscript:lu_minc_453_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "LU minc 453  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_453_limits_forest_forestry .
+
+rscript:lu_minc_453_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "LU minc 453  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_453_limits_forest_protected-zone .
+
+rscript:lu_minc_453_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "LU minc 453  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_453_limits_grasland_arable-land .
+
+rscript:lu_minc_453_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "LU minc 453  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_453_limits_grasland_pastures .
+
+rscript:lu_minc_453_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "LU minc 453  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:keep_lu_limit_453_limits_grasland_protected-zone .
+
+rscript:lu_minc_453_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "LU minc 453  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:recalc_lu_limit_453_limits_mountains_quary .
+
+rscript:map_sws_111_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 111  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_111_limits_forest_forestry .
+
+rscript:map_sws_111_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 111  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_111_limits_forest_protected-zone .
+
+rscript:map_sws_111_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 111  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_111_limits_grasland_arable-land .
+
+rscript:map_sws_111_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 111  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_111_limits_grasland_pastures .
+
+rscript:map_sws_111_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 111  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_111_limits_grasland_protected-zone .
+
+rscript:map_sws_111_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 111  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_111_limits_mountains_quary .
+
+rscript:map_sws_112_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 112  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_112_limits_forest_forestry .
+
+rscript:map_sws_112_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 112  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_112_limits_forest_protected-zone .
+
+rscript:map_sws_112_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 112  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_112_limits_grasland_arable-land .
+
+rscript:map_sws_112_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 112  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_112_limits_grasland_pastures .
+
+rscript:map_sws_112_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 112  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_112_limits_grasland_protected-zone .
+
+rscript:map_sws_112_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 112  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_112_limits_mountains_quary .
+
+rscript:map_sws_113_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 113  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_113_limits_forest_forestry .
+
+rscript:map_sws_113_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 113  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_113_limits_forest_protected-zone .
+
+rscript:map_sws_113_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 113  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_113_limits_grasland_arable-land .
+
+rscript:map_sws_113_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 113  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_113_limits_grasland_pastures .
+
+rscript:map_sws_113_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 113  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_113_limits_grasland_protected-zone .
+
+rscript:map_sws_113_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 113  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_113_limits_mountains_quary .
+
+rscript:map_sws_231_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 231  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_231_limits_forest_forestry .
+
+rscript:map_sws_231_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 231  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_231_limits_forest_protected-zone .
+
+rscript:map_sws_231_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 231  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_231_limits_grasland_arable-land .
+
+rscript:map_sws_231_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 231  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_231_limits_grasland_pastures .
+
+rscript:map_sws_231_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 231  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_231_limits_grasland_protected-zone .
+
+rscript:map_sws_231_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 231  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_231_limits_mountains_quary .
+
+rscript:map_sws_234_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 234  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_234_limits_forest_forestry .
+
+rscript:map_sws_234_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 234  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_234_limits_forest_protected-zone .
+
+rscript:map_sws_234_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 234  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_234_limits_grasland_arable-land .
+
+rscript:map_sws_234_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 234  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_234_limits_grasland_pastures .
+
+rscript:map_sws_234_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 234  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_234_limits_grasland_protected-zone .
+
+rscript:map_sws_234_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 234  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_234_limits_mountains_quary .
+
+rscript:map_sws_453_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 453  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_453_limits_forest_forestry .
+
+rscript:map_sws_453_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 453  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_453_limits_forest_protected-zone .
+
+rscript:map_sws_453_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 453  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_453_limits_grasland_arable-land .
+
+rscript:map_sws_453_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 453  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_453_limits_grasland_pastures .
+
+rscript:map_sws_453_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 453  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_453_limits_grasland_protected-zone .
+
+rscript:map_sws_453_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "map of suitablility weighted supply 453  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:calc_map_sws_453_limits_mountains_quary .
+
+rscript:max_forest_forestry
+    a prov:Entity ;
+    rdfs:label "maximum:  forest | forestry" ;
+    prov:wasGeneratedBy rscript:reclassify_forest_forestry .
+
+rscript:max_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "maximum:  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:reclassify_forest_protected-zone .
+
+rscript:max_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "maximum:  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:reclassify_grasland_arable-land .
+
+rscript:max_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "maximum:  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:reclassify_grasland_pastures .
+
+rscript:max_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "maximum:  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:reclassify_grasland_protected-zone .
+
+rscript:max_mountains_quary
+    a prov:Entity ;
+    rdfs:label "maximum:  mountains | quary" ;
+    prov:wasGeneratedBy rscript:reclassify_mountains_quary .
+
+rscript:min_forest_forestry
+    a prov:Entity ;
+    rdfs:label "minimum:  forest | forestry" ;
+    prov:wasGeneratedBy rscript:reclassify_forest_forestry .
+
+rscript:min_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "minimum:  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:reclassify_forest_protected-zone .
+
+rscript:min_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "minimum:  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:reclassify_grasland_arable-land .
+
+rscript:min_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "minimum:  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:reclassify_grasland_pastures .
+
+rscript:min_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "minimum:  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:reclassify_grasland_protected-zone .
+
+rscript:min_mountains_quary
+    a prov:Entity ;
+    rdfs:label "minimum:  mountains | quary" ;
+    prov:wasGeneratedBy rscript:reclassify_mountains_quary .
+
+rscript:mp_cover
+    a prov:Entity ;
+    rdfs:label "land cover map" .
+
+rscript:ratio_sws_census_111_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 111  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_111_limits_forest_forestry .
+
+rscript:ratio_sws_census_111_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 111  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_111_limits_forest_protected-zone .
+
+rscript:ratio_sws_census_111_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 111  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_111_limits_grasland_arable-land .
+
+rscript:ratio_sws_census_111_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 111  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_111_limits_grasland_pastures .
+
+rscript:ratio_sws_census_111_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 111  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_111_limits_grasland_protected-zone .
+
+rscript:ratio_sws_census_111_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 111  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_111_limits_mountains_quary .
+
+rscript:ratio_sws_census_112_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 112  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_112_limits_forest_forestry .
+
+rscript:ratio_sws_census_112_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 112  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_112_limits_forest_protected-zone .
+
+rscript:ratio_sws_census_112_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 112  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_112_limits_grasland_arable-land .
+
+rscript:ratio_sws_census_112_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 112  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_112_limits_grasland_pastures .
+
+rscript:ratio_sws_census_112_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 112  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_112_limits_grasland_protected-zone .
+
+rscript:ratio_sws_census_112_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 112  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_112_limits_mountains_quary .
+
+rscript:ratio_sws_census_113_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 113  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_113_limits_forest_forestry .
+
+rscript:ratio_sws_census_113_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 113  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_113_limits_forest_protected-zone .
+
+rscript:ratio_sws_census_113_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 113  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_113_limits_grasland_arable-land .
+
+rscript:ratio_sws_census_113_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 113  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_113_limits_grasland_pastures .
+
+rscript:ratio_sws_census_113_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 113  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_113_limits_grasland_protected-zone .
+
+rscript:ratio_sws_census_113_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 113  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_113_limits_mountains_quary .
+
+rscript:ratio_sws_census_231_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 231  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_231_limits_forest_forestry .
+
+rscript:ratio_sws_census_231_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 231  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_231_limits_forest_protected-zone .
+
+rscript:ratio_sws_census_231_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 231  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_231_limits_grasland_arable-land .
+
+rscript:ratio_sws_census_231_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 231  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_231_limits_grasland_pastures .
+
+rscript:ratio_sws_census_231_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 231  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_231_limits_grasland_protected-zone .
+
+rscript:ratio_sws_census_231_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 231  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_231_limits_mountains_quary .
+
+rscript:ratio_sws_census_234_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 234  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_234_limits_forest_forestry .
+
+rscript:ratio_sws_census_234_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 234  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_234_limits_forest_protected-zone .
+
+rscript:ratio_sws_census_234_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 234  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_234_limits_grasland_arable-land .
+
+rscript:ratio_sws_census_234_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 234  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_234_limits_grasland_pastures .
+
+rscript:ratio_sws_census_234_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 234  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_234_limits_grasland_protected-zone .
+
+rscript:ratio_sws_census_234_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 234  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_234_limits_mountains_quary .
+
+rscript:ratio_sws_census_453_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 453  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_453_limits_forest_forestry .
+
+rscript:ratio_sws_census_453_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 453  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_453_limits_forest_protected-zone .
+
+rscript:ratio_sws_census_453_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 453  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_453_limits_grasland_arable-land .
+
+rscript:ratio_sws_census_453_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 453  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_453_limits_grasland_pastures .
+
+rscript:ratio_sws_census_453_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 453  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_453_limits_grasland_protected-zone .
+
+rscript:ratio_sws_census_453_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "ratio supply demand 453  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:calc_supply_demand_ratio_453_limits_mountains_quary .
+
+rscript:recalc_lu_limit_111_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:min_forest_forestry, rscript:ratio_sws_census_111_limits_forest_forestry .
+
+rscript:recalc_lu_limit_111_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:min_forest_protected-zone, rscript:ratio_sws_census_111_limits_forest_protected-zone .
+
+rscript:recalc_lu_limit_111_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:max_grasland_arable-land, rscript:ratio_sws_census_111_limits_grasland_arable-land .
+
+rscript:recalc_lu_limit_111_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:max_grasland_pastures, rscript:ratio_sws_census_111_limits_grasland_pastures .
+
+rscript:recalc_lu_limit_111_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:min_grasland_protected-zone, rscript:ratio_sws_census_111_limits_grasland_protected-zone .
+
+rscript:recalc_lu_limit_111_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:min_mountains_quary, rscript:ratio_sws_census_111_limits_mountains_quary .
+
+rscript:recalc_lu_limit_112_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:max_forest_forestry, rscript:ratio_sws_census_112_limits_forest_forestry .
+
+rscript:recalc_lu_limit_112_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:max_forest_protected-zone, rscript:ratio_sws_census_112_limits_forest_protected-zone .
+
+rscript:recalc_lu_limit_112_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:min_grasland_arable-land, rscript:ratio_sws_census_112_limits_grasland_arable-land .
+
+rscript:recalc_lu_limit_112_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:min_grasland_pastures, rscript:ratio_sws_census_112_limits_grasland_pastures .
+
+rscript:recalc_lu_limit_112_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:max_grasland_protected-zone, rscript:ratio_sws_census_112_limits_grasland_protected-zone .
+
+rscript:recalc_lu_limit_112_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:max_mountains_quary, rscript:ratio_sws_census_112_limits_mountains_quary .
+
+rscript:recalc_lu_limit_113_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:max_forest_forestry, rscript:ratio_sws_census_113_limits_forest_forestry .
+
+rscript:recalc_lu_limit_113_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:min_forest_protected-zone, rscript:ratio_sws_census_113_limits_forest_protected-zone .
+
+rscript:recalc_lu_limit_113_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:max_grasland_arable-land, rscript:ratio_sws_census_113_limits_grasland_arable-land .
+
+rscript:recalc_lu_limit_113_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:max_grasland_pastures, rscript:ratio_sws_census_113_limits_grasland_pastures .
+
+rscript:recalc_lu_limit_113_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:max_grasland_protected-zone, rscript:ratio_sws_census_113_limits_grasland_protected-zone .
+
+rscript:recalc_lu_limit_113_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:max_mountains_quary, rscript:ratio_sws_census_113_limits_mountains_quary .
+
+rscript:recalc_lu_limit_231_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:min_forest_forestry, rscript:ratio_sws_census_231_limits_forest_forestry .
+
+rscript:recalc_lu_limit_231_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:max_forest_protected-zone, rscript:ratio_sws_census_231_limits_forest_protected-zone .
+
+rscript:recalc_lu_limit_231_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:min_grasland_arable-land, rscript:ratio_sws_census_231_limits_grasland_arable-land .
+
+rscript:recalc_lu_limit_231_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:min_grasland_pastures, rscript:ratio_sws_census_231_limits_grasland_pastures .
+
+rscript:recalc_lu_limit_231_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:min_grasland_protected-zone, rscript:ratio_sws_census_231_limits_grasland_protected-zone .
+
+rscript:recalc_lu_limit_231_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:max_mountains_quary, rscript:ratio_sws_census_231_limits_mountains_quary .
+
+rscript:recalc_lu_limit_234_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:min_forest_forestry, rscript:ratio_sws_census_234_limits_forest_forestry .
+
+rscript:recalc_lu_limit_234_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:min_forest_protected-zone, rscript:ratio_sws_census_234_limits_forest_protected-zone .
+
+rscript:recalc_lu_limit_234_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:min_grasland_arable-land, rscript:ratio_sws_census_234_limits_grasland_arable-land .
+
+rscript:recalc_lu_limit_234_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:min_grasland_pastures, rscript:ratio_sws_census_234_limits_grasland_pastures .
+
+rscript:recalc_lu_limit_234_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:max_grasland_protected-zone, rscript:ratio_sws_census_234_limits_grasland_protected-zone .
+
+rscript:recalc_lu_limit_234_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:min_mountains_quary, rscript:ratio_sws_census_234_limits_mountains_quary .
+
+rscript:recalc_lu_limit_453_limits_forest_forestry
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:max_forest_forestry, rscript:ratio_sws_census_453_limits_forest_forestry .
+
+rscript:recalc_lu_limit_453_limits_forest_protected-zone
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:min_forest_protected-zone, rscript:ratio_sws_census_453_limits_forest_protected-zone .
+
+rscript:recalc_lu_limit_453_limits_grasland_arable-land
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:max_grasland_arable-land, rscript:ratio_sws_census_453_limits_grasland_arable-land .
+
+rscript:recalc_lu_limit_453_limits_grasland_pastures
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:min_grasland_pastures, rscript:ratio_sws_census_453_limits_grasland_pastures .
+
+rscript:recalc_lu_limit_453_limits_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:max_grasland_protected-zone, rscript:ratio_sws_census_453_limits_grasland_protected-zone .
+
+rscript:recalc_lu_limit_453_limits_mountains_quary
+    a prov:Activity ;
+    rdfs:label "recalculate LU limit" ;
+    prov:used rscript:min_mountains_quary, rscript:ratio_sws_census_453_limits_mountains_quary .
+
+rscript:reclassify_forest_forestry
+    a prov:Activity ;
+    rdfs:label "reclassify" ;
+    prov:used rscript:limits_forest_forestry, rscript:mp_cover .
+
+rscript:reclassify_forest_protected-zone
+    a prov:Activity ;
+    rdfs:label "reclassify" ;
+    prov:used rscript:limits_forest_protected-zone, rscript:mp_cover .
+
+rscript:reclassify_grasland_arable-land
+    a prov:Activity ;
+    rdfs:label "reclassify" ;
+    prov:used rscript:limits_grasland_arable-land, rscript:mp_cover .
+
+rscript:reclassify_grasland_pastures
+    a prov:Activity ;
+    rdfs:label "reclassify" ;
+    prov:used rscript:limits_grasland_pastures, rscript:mp_cover .
+
+rscript:reclassify_grasland_protected-zone
+    a prov:Activity ;
+    rdfs:label "reclassify" ;
+    prov:used rscript:limits_grasland_protected-zone, rscript:mp_cover .
+
+rscript:reclassify_mountains_quary
+    a prov:Activity ;
+    rdfs:label "reclassify" ;
+    prov:used rscript:limits_mountains_quary, rscript:mp_cover .
+
+rscript:suit_map_111_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "suitability map 111  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_111_limits_forest_forestry .
+
+rscript:suit_map_111_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map 111  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_111_limits_forest_protected-zone .
+
+rscript:suit_map_111_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "suitability map 111  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_111_limits_grasland_arable-land .
+
+rscript:suit_map_111_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "suitability map 111  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_111_limits_grasland_pastures .
+
+rscript:suit_map_111_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map 111  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_111_limits_grasland_protected-zone .
+
+rscript:suit_map_111_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "suitability map 111  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_111_limits_mountains_quary .
+
+rscript:suit_map_112_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "suitability map 112  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_112_limits_forest_forestry .
+
+rscript:suit_map_112_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map 112  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_112_limits_forest_protected-zone .
+
+rscript:suit_map_112_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "suitability map 112  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_112_limits_grasland_arable-land .
+
+rscript:suit_map_112_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "suitability map 112  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_112_limits_grasland_pastures .
+
+rscript:suit_map_112_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map 112  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_112_limits_grasland_protected-zone .
+
+rscript:suit_map_112_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "suitability map 112  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_112_limits_mountains_quary .
+
+rscript:suit_map_113_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "suitability map 113  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_113_limits_forest_forestry .
+
+rscript:suit_map_113_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map 113  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_113_limits_forest_protected-zone .
+
+rscript:suit_map_113_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "suitability map 113  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_113_limits_grasland_arable-land .
+
+rscript:suit_map_113_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "suitability map 113  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_113_limits_grasland_pastures .
+
+rscript:suit_map_113_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map 113  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_113_limits_grasland_protected-zone .
+
+rscript:suit_map_113_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "suitability map 113  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_113_limits_mountains_quary .
+
+rscript:suit_map_231_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "suitability map 231  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_231_limits_forest_forestry .
+
+rscript:suit_map_231_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map 231  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_231_limits_forest_protected-zone .
+
+rscript:suit_map_231_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "suitability map 231  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_231_limits_grasland_arable-land .
+
+rscript:suit_map_231_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "suitability map 231  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_231_limits_grasland_pastures .
+
+rscript:suit_map_231_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map 231  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_231_limits_grasland_protected-zone .
+
+rscript:suit_map_231_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "suitability map 231  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_231_limits_mountains_quary .
+
+rscript:suit_map_234_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "suitability map 234  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_234_limits_forest_forestry .
+
+rscript:suit_map_234_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map 234  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_234_limits_forest_protected-zone .
+
+rscript:suit_map_234_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "suitability map 234  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_234_limits_grasland_arable-land .
+
+rscript:suit_map_234_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "suitability map 234  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_234_limits_grasland_pastures .
+
+rscript:suit_map_234_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map 234  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_234_limits_grasland_protected-zone .
+
+rscript:suit_map_234_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "suitability map 234  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_234_limits_mountains_quary .
+
+rscript:suit_map_453_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "suitability map 453  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_453_limits_forest_forestry .
+
+rscript:suit_map_453_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map 453  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_453_limits_forest_protected-zone .
+
+rscript:suit_map_453_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "suitability map 453  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_453_limits_grasland_arable-land .
+
+rscript:suit_map_453_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "suitability map 453  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_453_limits_grasland_pastures .
+
+rscript:suit_map_453_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map 453  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_453_limits_grasland_protected-zone .
+
+rscript:suit_map_453_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "suitability map 453  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:build_local_suit_map_453_limits_mountains_quary .
+
+rscript:suit_map_maximum_111_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 111  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_111_limits_forest_forestry .
+
+rscript:suit_map_maximum_111_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 111  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_111_limits_forest_protected-zone .
+
+rscript:suit_map_maximum_111_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 111  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_111_limits_grasland_arable-land .
+
+rscript:suit_map_maximum_111_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 111  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_111_limits_grasland_pastures .
+
+rscript:suit_map_maximum_111_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 111  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_111_limits_grasland_protected-zone .
+
+rscript:suit_map_maximum_111_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 111  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_111_limits_mountains_quary .
+
+rscript:suit_map_maximum_112_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 112  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_112_limits_forest_forestry .
+
+rscript:suit_map_maximum_112_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 112  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_112_limits_forest_protected-zone .
+
+rscript:suit_map_maximum_112_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 112  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_112_limits_grasland_arable-land .
+
+rscript:suit_map_maximum_112_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 112  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_112_limits_grasland_pastures .
+
+rscript:suit_map_maximum_112_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 112  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_112_limits_grasland_protected-zone .
+
+rscript:suit_map_maximum_112_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 112  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_112_limits_mountains_quary .
+
+rscript:suit_map_maximum_113_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 113  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_113_limits_forest_forestry .
+
+rscript:suit_map_maximum_113_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 113  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_113_limits_forest_protected-zone .
+
+rscript:suit_map_maximum_113_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 113  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_113_limits_grasland_arable-land .
+
+rscript:suit_map_maximum_113_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 113  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_113_limits_grasland_pastures .
+
+rscript:suit_map_maximum_113_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 113  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_113_limits_grasland_protected-zone .
+
+rscript:suit_map_maximum_113_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 113  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_113_limits_mountains_quary .
+
+rscript:suit_map_maximum_231_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 231  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_231_limits_forest_forestry .
+
+rscript:suit_map_maximum_231_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 231  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_231_limits_forest_protected-zone .
+
+rscript:suit_map_maximum_231_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 231  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_231_limits_grasland_arable-land .
+
+rscript:suit_map_maximum_231_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 231  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_231_limits_grasland_pastures .
+
+rscript:suit_map_maximum_231_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 231  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_231_limits_grasland_protected-zone .
+
+rscript:suit_map_maximum_231_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 231  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_231_limits_mountains_quary .
+
+rscript:suit_map_maximum_234_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 234  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_234_limits_forest_forestry .
+
+rscript:suit_map_maximum_234_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 234  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_234_limits_forest_protected-zone .
+
+rscript:suit_map_maximum_234_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 234  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_234_limits_grasland_arable-land .
+
+rscript:suit_map_maximum_234_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 234  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_234_limits_grasland_pastures .
+
+rscript:suit_map_maximum_234_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 234  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_234_limits_grasland_protected-zone .
+
+rscript:suit_map_maximum_234_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 234  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_234_limits_mountains_quary .
+
+rscript:suit_map_maximum_453_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 453  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_453_limits_forest_forestry .
+
+rscript:suit_map_maximum_453_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 453  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_453_limits_forest_protected-zone .
+
+rscript:suit_map_maximum_453_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 453  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_453_limits_grasland_arable-land .
+
+rscript:suit_map_maximum_453_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 453  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_453_limits_grasland_pastures .
+
+rscript:suit_map_maximum_453_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 453  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_453_limits_grasland_protected-zone .
+
+rscript:suit_map_maximum_453_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "suitability map maximum 453  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:derive_suit_max_453_limits_mountains_quary .
+
+rscript:suit_map_minimum_111_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 111  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_111_limits_forest_forestry .
+
+rscript:suit_map_minimum_111_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 111  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_111_limits_forest_protected-zone .
+
+rscript:suit_map_minimum_111_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 111  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_111_limits_grasland_arable-land .
+
+rscript:suit_map_minimum_111_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 111  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_111_limits_grasland_pastures .
+
+rscript:suit_map_minimum_111_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 111  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_111_limits_grasland_protected-zone .
+
+rscript:suit_map_minimum_111_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 111  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_111_limits_mountains_quary .
+
+rscript:suit_map_minimum_112_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 112  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_112_limits_forest_forestry .
+
+rscript:suit_map_minimum_112_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 112  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_112_limits_forest_protected-zone .
+
+rscript:suit_map_minimum_112_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 112  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_112_limits_grasland_arable-land .
+
+rscript:suit_map_minimum_112_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 112  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_112_limits_grasland_pastures .
+
+rscript:suit_map_minimum_112_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 112  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_112_limits_grasland_protected-zone .
+
+rscript:suit_map_minimum_112_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 112  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_112_limits_mountains_quary .
+
+rscript:suit_map_minimum_113_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 113  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_113_limits_forest_forestry .
+
+rscript:suit_map_minimum_113_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 113  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_113_limits_forest_protected-zone .
+
+rscript:suit_map_minimum_113_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 113  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_113_limits_grasland_arable-land .
+
+rscript:suit_map_minimum_113_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 113  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_113_limits_grasland_pastures .
+
+rscript:suit_map_minimum_113_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 113  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_113_limits_grasland_protected-zone .
+
+rscript:suit_map_minimum_113_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 113  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_113_limits_mountains_quary .
+
+rscript:suit_map_minimum_231_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 231  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_231_limits_forest_forestry .
+
+rscript:suit_map_minimum_231_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 231  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_231_limits_forest_protected-zone .
+
+rscript:suit_map_minimum_231_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 231  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_231_limits_grasland_arable-land .
+
+rscript:suit_map_minimum_231_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 231  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_231_limits_grasland_pastures .
+
+rscript:suit_map_minimum_231_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 231  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_231_limits_grasland_protected-zone .
+
+rscript:suit_map_minimum_231_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 231  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_231_limits_mountains_quary .
+
+rscript:suit_map_minimum_234_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 234  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_234_limits_forest_forestry .
+
+rscript:suit_map_minimum_234_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 234  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_234_limits_forest_protected-zone .
+
+rscript:suit_map_minimum_234_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 234  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_234_limits_grasland_arable-land .
+
+rscript:suit_map_minimum_234_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 234  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_234_limits_grasland_pastures .
+
+rscript:suit_map_minimum_234_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 234  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_234_limits_grasland_protected-zone .
+
+rscript:suit_map_minimum_234_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 234  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_234_limits_mountains_quary .
+
+rscript:suit_map_minimum_453_limits_forest_forestry
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 453  |  forest | forestry" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_453_limits_forest_forestry .
+
+rscript:suit_map_minimum_453_limits_forest_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 453  |  forest | protected zone" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_453_limits_forest_protected-zone .
+
+rscript:suit_map_minimum_453_limits_grasland_arable-land
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 453  |  grasland | arable land" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_453_limits_grasland_arable-land .
+
+rscript:suit_map_minimum_453_limits_grasland_pastures
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 453  |  grasland | pastures" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_453_limits_grasland_pastures .
+
+rscript:suit_map_minimum_453_limits_grasland_protected-zone
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 453  |  grasland | protected zone" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_453_limits_grasland_protected-zone .
+
+rscript:suit_map_minimum_453_limits_mountains_quary
+    a prov:Entity ;
+    rdfs:label "suitability map minimum 453  |  mountains | quary" ;
+    prov:wasGeneratedBy rscript:derive_suit_min_453_limits_mountains_quary .
+
