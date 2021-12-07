@@ -2,7 +2,7 @@
 
 This package shall provide R script developers with some useful utilities to track meaningful provenance with inline R-code.
 
-Find the Python version of this package at <https://github.com/GeoinformationSystems/ProvIt>.
+Find the Python version of this package at <https://github.com/GeoinformationSystems/provo>.
 
 I wrote this package because concurrent provenance tracking packages tend to, either produce lengthy documents with loads of abundant information (typically automatic provenance tracing) or don't allow for fine grained tracking (e.g. using qualified comments to track provenance cannot interpret conditions or loops). To sum up: This package gives the sole control over what is tracked to the user, while simplifying the task as much as possible.
 
