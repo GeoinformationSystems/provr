@@ -12,7 +12,7 @@ This package produces provenance graphs that adhere to the PROV-Ontology <https:
 
 <figure align="center">
 <img src="graphics/ProvUnits.png" width="500" title="PROV-O"/>
-  <figcaption>Fig. 1 - Starting Point Terms of PROV-O (time related relations excluded). Notice the direction of the relations.  </figcaption>
+  <figcaption>Fig. 1 - Starting Point Terms of PROV-O (time related relations excluded). Notice the direction of the relations.<br /></figcaption>
 </figure>
 
 In terms of data processing _Entities_ can be viewed as data and _Activities_ as processes that use existing data and generate new data. _Agents_ stand for persons, organizations or even software that carries out these processing steps. An example where a process uses some input data to produce some output data is shown in Fig. 2.
