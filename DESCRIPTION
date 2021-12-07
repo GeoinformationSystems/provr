@@ -1,15 +1,13 @@
 Package: provr
-Title: What the Package Does (One Line, Title Case)
+Title: A user focused provenance tracking package that uses the PROV-Ontology
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
-           role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person(given = "Arne",
+           family = "Rümmler",
+           email = "arne.ruemmler@tu-dresden.de",
+           comment = c(ORCID = "0000-0001-8637-9071"))
+Description: This package shall provide R script developers with some useful utilities to track meaningful provenance with inline R-code.
+License: use_gpl3_license()
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
