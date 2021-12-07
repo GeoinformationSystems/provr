@@ -119,7 +119,7 @@ Visualized with the PROV-Viewer application (<https://github.com/GeoinformationS
 
 <figure align = "center">
 <img src="graphics/10x10_ex.png" width="500" title="PROV-O"/>
-  <figcaption >Fig. 4 - Visualization of Listing 4</figcaption>
+  <figcaption >Fig. 4 - Visualization of Listing 4. (Notice that ProvViewer shows the PROV-O properties wasUsedBy and generated, instead of used and wasGeneratedBy; i.e. the arrows point in the opposite direction.)</figcaption>
 </figure>
 <br></br>
 
