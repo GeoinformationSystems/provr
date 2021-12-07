@@ -270,3 +270,19 @@ The package enables script developers to build concise provenance graphs that fi
 - [ ] add time tracking for activities
 - [ ] add automatic id generation toggle
 - [ ] implement full PROV-O
+
+## Used Packages
+
+- rdflib (<https://cran.r-project.org/web/packages/rdflib/index.html>)
+- uuid (<https://cran.r-project.org/web/packages/uuid/index.html>)
+- magrittr (<https://cran.r-project.org/web/packages/magrittr/index.html>)
+
+## License
+
+GNU General Public License 3
+
+<https://www.gnu.org/licenses/gpl-3.0.de.html>
+
+## Contact
+
+Arne Rümmler (<arne.ruemmler@tu-dresden.de>)

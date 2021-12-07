@@ -1,1 +1,5 @@
 provr
+rdflib
+uuid
+magrittr
+ProvViewer
