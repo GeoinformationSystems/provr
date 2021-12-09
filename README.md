@@ -42,7 +42,7 @@ As first step that graph has to be set up:
 init_provenance_graph(namespace = "https://www.yournamespace.com/script#")
 ```
 
-PROV-O is RDF based, which means that every _Entity_, _Activity_ and _Agent_ has to have a unique ID that resolves to a URL-like structure called IRI. Every ID that you give to an _Entity_, _Activity_ or _Agent_ is concatenated to that very namespace you defined on graph initialization to build the IRI.
+PROV-O is RDF based, which means that every _Entity_, _Activity_ and _Agent_ has to have a unique ID that resolves to a URL-like structure called URI. Every ID that you give to an _Entity_, _Activity_ or _Agent_ is concatenated to that very namespace you defined on graph initialization to build the URI. See _Hints / Pitfalls_ for more detailed information on namespaces.
 
 The package implements the three PROV-O Node types _Entity_, _Activity_ and _Agent_ as R-environments with class like behavior. Each Node type must have an ID and can have a label and a description. If no label is given on instantiation the ID is used as label.
 
@@ -226,11 +226,38 @@ Fig. 5 shows the visualization of the resulting provenance graph.
 </figure>
 <br></br>
 
+## Load an existing provenance graph (provenance across multiple scripts)
+
+Say you want to track provenance information across distributed scripts (or sessions). Therefore you need to load the provenance graph you saved previously. Loading existing provenance documents is achieved by providing the `init_provenance_graph()` function with the according file name:
+
+<p align = "center">Listing 7</p>
+
+```R
+init_provenance_graph(
+    namespace = "https://www.provr.com/10x10raster_ex#", 
+    file = "10x10raster_ex.ttl")
+```
+
+To access nodes from the loaded graph you need to use the `load = TRUE` option on initializing the node. After loading a node like this, you can attach further provenance information:
+
+<p align = "center">Listing 8</p>
+
+```R
+in_raster_entity <- Entity(id = 'in_raster', load = TRUE)
+
+init_activity <- Activity(
+    id = 'initial_process', 
+    label = 'initial process',
+    description = 'the process that generated the input raster')
+
+in_raster_entity$wasGeneratedBy(init_activity) 
+```
+
 ## Wrapping up
 
 The package enables script developers to build concise provenance graphs that fit their needs. The obvious drawback to fully automated approaches, is the required typing to set up the nodes and relations. The fine-grained graph example showed that the user can automate the provenance generation to a certain degree. Control structures can be leveraged and values of variables can be used to build ids, labels and descriptions.
 
-### Dos and Don'ts / Pitfalls
+## Hints / Pitfalls
 
 - When creating an _Entity_, _Activity_ or _Agent_, I advise to add the according `*_entity`, `*_activity` or `*_agent` to your variable name to prevent confusion
 - The package prevents you from putting the wrong classes as argument to the methods of the classes:
@@ -239,45 +266,83 @@ The package enables script developers to build concise provenance graphs that fi
     agent <- Agent("agent")
     entity <- Entity("entity")
     entity$wasGeneratedBy(agent)
+    ```
 
+    ```terminal
     > Error in entity$wasGeneratedBy(agent) : 
         argument has to be of the class "Activity"!
     ```
 
-- the package does NOT prevent you from assigning the same ID to different nodes
-    - best case, accidentally setting up a node twice:
+- The package prevents you from setting up a node with the same URI (namespace + ID) twice:
 
-        ```R
-        entity <- Entity(id = "some_entity", label = "descriptive name")
-        # ...
-        entity <- Entity(id = "some_entity", label = "very descriptive name")
-        ```
+    ```R
+    entity <- Entity("in_raster")
+    # ...
+    other_entity <- Entity("in_raster")
+    ```
 
-        This results in an Entity that has two labels (resulting RDF):
+    ```terminal
+    > Error in Entity(id = "in_raster") : 
+        A resource with the URI https://www.provr.com/10x10raster_ex#in_raster already exists (as subject), please use the 'load = TRUE' option.
+    ```
 
-        ```
-        rscript:some_entity
-            a prov:Entity ;
-            rdfs:label "descriptive name", 
-                "very descriptive name" .
-        ```
-    
-    - worst case: same ID for nodes that should be different. This results in a meaningless provenance graph.
+- __Beware namespaces:__ A certain node in the provenance graph is identified by its URI. The URI is the combination of a namespace and an identifier in this namespace. That means same IDs in different namespaces result in different nodes. An example:
 
-- t.b.c.
+    In _Listing 4_ we initialized the provenance graph with the namespace <https://www.provr.com/10x10raster_ex#>. Every Entity, Activity or Agent we subsequently defined in this script gets its unique URI constructed by concatenating this namespace with the ID we provide on instantiation; e.g.: `in_raster_entity <- Entity("in_raster", "Input Raster")` - the URI of this entity is <https://www.provr.com/10x10raster_ex#in_raster>.
+
+    In _Listing 7_ and _Listing 8_ we loaded the graph from _Listing 4_ and accessed an Entity from the loaded graph by its ID. Notice that, on initializing the graph in _Listing 7_, we used the same namespace as in _Listing 4_. But what if we wanted to distinguish the Nodes that were constructed in _Listing 4_ from those that were constructed in _Listing 8_? In this case we would need to set up the graph in _Lisiting 7_ with a different namespace:
+
+    ```R
+    init_provenance_graph(
+        namespace = "https://www.provr.com/another_namespace#", 
+        file = "10x10raster_ex.ttl")
+    ```
+
+    If we now proceed as in _Listing 8_ we get an error:
+    ```R
+    in_raster_entity <- Entity(id = 'in_raster', load = TRUE)
+    ```
+
+    ```terminal
+    > Error in Entity(id = "in_raster", load = TRUE) : 
+         A resource with the URI <https://www.provr.com/another_namespace#in_raster> does not exists (as subject), please use the 'load = FALSE' option.
+    ```
+
+    This is, because on node initialization the namespace that is concatenated with the provided ID, defaults to the namespace we gave at graph initialization. If we want to create or load nodes with namespaces that differ from this "default" namespace, we need to provide them explicitly:
+
+    ```R
+    init_provenance_graph(
+        namespace = "https://www.provr.com/another_namespace#", 
+        file = "10x10raster_ex.ttl")
+
+    in_raster_entity <- Entity(
+        id = 'in_raster',
+        namespace = "https://www.provr.com/10x10raster_ex#", 
+        load = TRUE)
+    # -> URI: <https://www.provr.com/10x10raster_ex#in_raster>
+
+
+    # now we can proceed as in Listing 8:
+
+    init_activity <- Activity('initial_process')
+    # -> URI: <https://www.provr.com/another_namespace#initial_process>
+
+    in_raster_entity$wasGeneratedBy(init_activity) 
+    ```
+
 
 ## TODO
 
-- [ ] Add graph loading capabilities
 - [ ] add time tracking for activities
 - [ ] add automatic id generation toggle
 - [ ] implement full PROV-O
 
 ## Used Packages
 
-- rdflib (<https://cran.r-project.org/web/packages/rdflib/index.html>)
-- uuid (<https://cran.r-project.org/web/packages/uuid/index.html>)
-- magrittr (<https://cran.r-project.org/web/packages/magrittr/index.html>)
+- rdflib (<https://cran.r-project.org/package=rdflib>)
+- redland (<https://cran.r-project.org/package=redland>)
+- uuid (<https://cran.r-project.org/package=uuid>)
+- magrittr (<https://cran.r-project.org/package=magrittr>)
 
 ## License
 

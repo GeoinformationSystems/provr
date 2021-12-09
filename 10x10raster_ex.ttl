@@ -20,4 +20,3 @@ rscript:out_raster
     a prov:Entity ;
     rdfs:label "Mask Raster" ;
     prov:wasGeneratedBy rscript:mask .
-

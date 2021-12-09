@@ -7,15 +7,22 @@ is.url <- function(x) {
 }
 
 
-init_provenance_graph <- function(namespace = NULL) {
+init_provenance_graph <- function(namespace = NULL, file = NULL) {
     if (!is.url(namespace)) {
         stop(
             "Please provide a valid namespace for the objects of your provenance graph.
         - E.g. http://yourscriptname.org#.
-        - The namespace has to be formatted like an URI, but does not have to be an actual URL on the web."
+        - The namespace has to be formatted like a URI, but does not have to be an actual URL on the web."
         )
     }
-    pkg.env$rdf <- rdflib::rdf()
+
+    # either load existing graph or init new one
+    if (!(is.null(file))) {
+        pkg.env$rdf <- rdflib::rdf_parse(file)
+    } else {
+        pkg.env$rdf <- rdflib::rdf()
+    }
+
     last_namespace_char <- substring(namespace, nchar(namespace))
     if (last_namespace_char != "#" || last_namespace_char != "/") {
         namespace <<- paste0(namespace, "#")
@@ -29,44 +36,69 @@ init_provenance_graph <- function(namespace = NULL) {
     )
 }
 
-serialize_provenance_graph <- function(name) {
-    rdflib::rdf_serialize(pkg.env$rdf, name, namespace = pkg.env$namespaces, format = "turtle")
+serialize_provenance_graph <- function(name, format = "turtle") {
+    rdflib::rdf_serialize(pkg.env$rdf, name, namespace = pkg.env$namespaces, format = format)
 }
 
-Entity <- function(id = NULL, label = NULL, description = NULL) {
+resource_exists <- function(resource_id, namespace = pkg.env$namespaces["rscript"]) {
+
+    # check if resource exists as a subject (-> if yes, it was defined previously)
+    query <- sprintf("SELECT ?p ?o WHERE {
+        <%s> ?p ?o .
+    }", paste0(namespace, URLencode(resource_id, reserved = TRUE)))
+    # suppress warning if query has no solution (which is more or less the default case)
+    suppressWarnings(length <- nrow(rdflib::rdf_query(pkg.env$rdf, query)))
+
+    return(as.logical(length))
+}
+
+
+
+Entity <- function(id = NULL, label = NULL, description = NULL, namespace = pkg.env$namespaces["rscript"], load = FALSE) {
     if (is.null(id)) {
         stop("ID required!")
     }
+    id_exists <- resource_exists(id, namespace)
+    if (id_exists && !(load)) {
+        stop(sprintf("A resource with the URI <%s> already exists (as subject), please use the \'load = TRUE\' option.", paste0(namespace, URLencode(id, reserved = TRUE))))
+    }
+    if (load && !(id_exists)) {
+        stop(sprintf("A resource with the URI <%s> does not exists (as subject), please use the \'load = FALSE\' option.", paste0(namespace, URLencode(id, reserved = TRUE))))
+    }
+
     id <- id
     label <- label
     description <- description
 
-    pkg.env$rdf %>% rdflib::rdf_add(
-        subject = paste0(pkg.env$namespaces["rscript"], URLencode(id, reserved = TRUE)),
-        predicate = paste0(pkg.env$namespaces["rdf"], "type"),
-        object = paste0(pkg.env$namespaces["prov"], "Entity")
-    )
-    if (is.null(label)) {
+    if (!(load)) {
         pkg.env$rdf %>% rdflib::rdf_add(
-            subject = paste0(pkg.env$namespaces["rscript"], URLencode(id, reserved = TRUE)),
-            predicate = paste0(pkg.env$namespaces["rdfs"], "label"),
-            object = id
+            subject = paste0(namespace, URLencode(id, reserved = TRUE)),
+            predicate = paste0(pkg.env$namespaces["rdf"], "type"),
+            object = paste0(pkg.env$namespaces["prov"], "Entity")
         )
-    } else {
-        pkg.env$rdf %>% rdflib::rdf_add(
-            subject = paste0(pkg.env$namespaces["rscript"], URLencode(id, reserved = TRUE)),
-            predicate = paste0(pkg.env$namespaces["rdfs"], "label"),
-            object = label
-        )
+        if (is.null(label)) {
+            pkg.env$rdf %>% rdflib::rdf_add(
+                subject = paste0(namespace, URLencode(id, reserved = TRUE)),
+                predicate = paste0(pkg.env$namespaces["rdfs"], "label"),
+                object = id
+            )
+        } else {
+            pkg.env$rdf %>% rdflib::rdf_add(
+                subject = paste0(namespace, URLencode(id, reserved = TRUE)),
+                predicate = paste0(pkg.env$namespaces["rdfs"], "label"),
+                object = label
+            )
+        }
+
+        if (!is.null(description)) {
+            pkg.env$rdf %>% rdflib::rdf_add(
+                subject = paste0(namespace, URLencode(id, reserved = TRUE)),
+                predicate = paste0(pkg.env$namespaces["rdfs"], "comment"),
+                object = toString(description)
+            )
+        }
     }
 
-    if (!is.null(description)) {
-        pkg.env$rdf %>% rdflib::rdf_add(
-            subject = paste0(pkg.env$namespaces["rscript"], URLencode(id, reserved = TRUE)),
-            predicate = paste0(pkg.env$namespaces["rdfs"], "comment"),
-            object = toString(description)
-        )
-    }
 
     get_id <- function() id
     get_label <- function() label
@@ -77,9 +109,9 @@ Entity <- function(id = NULL, label = NULL, description = NULL) {
             stop("argument has to be of the class \"Activity\"!")
         }
         pkg.env$rdf %>% rdflib::rdf_add(
-            subject = paste0(pkg.env$namespaces["rscript"], URLencode(id, reserved = TRUE)),
+            subject = paste0(namespace, URLencode(id, reserved = TRUE)),
             predicate = paste0(pkg.env$namespaces["prov"], "wasGeneratedBy"),
-            object = paste0(pkg.env$namespaces["rscript"], URLencode(activity$get_id(), reserved = TRUE)),
+            object = paste0(namespace, URLencode(activity$get_id(), reserved = TRUE)),
         )
     }
 
@@ -88,9 +120,9 @@ Entity <- function(id = NULL, label = NULL, description = NULL) {
             stop("argument has to be of the class \"Entity\"!")
         }
         pkg.env$rdf %>% rdflib::rdf_add(
-            subject = paste0(pkg.env$namespaces["rscript"], URLencode(id, reserved = TRUE)),
+            subject = paste0(namespace, URLencode(id, reserved = TRUE)),
             predicate = paste0(pkg.env$namespaces["prov"], "wasDerivedFrom"),
-            object = paste0(pkg.env$namespaces["rscript"], URLencode(entity$get_id(), reserved = TRUE)),
+            object = paste0(namespace, URLencode(entity$get_id(), reserved = TRUE)),
         )
     }
 
@@ -99,48 +131,56 @@ Entity <- function(id = NULL, label = NULL, description = NULL) {
             stop("argument has to be of the class \"Agent\"!")
         }
         pkg.env$rdf %>% rdflib::rdf_add(
-            subject = paste0(pkg.env$namespaces["rscript"], URLencode(id, reserved = TRUE)),
+            subject = paste0(namespace, URLencode(id, reserved = TRUE)),
             predicate = paste0(pkg.env$namespaces["prov"], "wasAttributedTo"),
-            object = paste0(pkg.env$namespaces["rscript"], URLencode(entity$get_id(), reserved = TRUE)),
+            object = paste0(namespace, URLencode(entity$get_id(), reserved = TRUE)),
         )
     }
-
     structure(class = "Entity", environment())
 }
 
-Activity <- function(id = NULL, label = NULL, description = NULL) {
+Activity <- function(id = NULL, label = NULL, description = NULL, namespace = pkg.env$namespaces["rscript"], load = FALSE) {
     if (is.null(id)) {
         stop("ID required!")
+    }
+    id_exists <- resource_exists(id, namespace)
+    if (id_exists && !(load)) {
+        stop(sprintf("A resource with the URI <%s> already exists (as subject), please use the \'load = TRUE\' option.", paste0(namespace, URLencode(id, reserved = TRUE))))
+    }
+    if (load && !(id_exists)) {
+        stop(sprintf("A resource with the URI <%s> does not exists (as subject), please use the \'load = FALSE\' option.", paste0(namespace, URLencode(id, reserved = TRUE))))
     }
     id <- id
     label <- label
     description <- description
 
-    pkg.env$rdf %>% rdflib::rdf_add(
-        subject = paste0(pkg.env$namespaces["rscript"], URLencode(id, reserved = TRUE)),
-        predicate = paste0(pkg.env$namespaces["rdf"], "type"),
-        object = paste0(pkg.env$namespaces["prov"], "Activity")
-    )
-    if (is.null(label)) {
+    if (!(load)) {
         pkg.env$rdf %>% rdflib::rdf_add(
-            subject = paste0(pkg.env$namespaces["rscript"], URLencode(id, reserved = TRUE)),
-            predicate = paste0(pkg.env$namespaces["rdfs"], "label"),
-            object = id
+            subject = paste0(namespace, URLencode(id, reserved = TRUE)),
+            predicate = paste0(pkg.env$namespaces["rdf"], "type"),
+            object = paste0(pkg.env$namespaces["prov"], "Activity")
         )
-    } else {
-        pkg.env$rdf %>% rdflib::rdf_add(
-            subject = paste0(pkg.env$namespaces["rscript"], URLencode(id, reserved = TRUE)),
-            predicate = paste0(pkg.env$namespaces["rdfs"], "label"),
-            object = label
-        )
-    }
+        if (is.null(label)) {
+            pkg.env$rdf %>% rdflib::rdf_add(
+                subject = paste0(namespace, URLencode(id, reserved = TRUE)),
+                predicate = paste0(pkg.env$namespaces["rdfs"], "label"),
+                object = id
+            )
+        } else {
+            pkg.env$rdf %>% rdflib::rdf_add(
+                subject = paste0(namespace, URLencode(id, reserved = TRUE)),
+                predicate = paste0(pkg.env$namespaces["rdfs"], "label"),
+                object = label
+            )
+        }
 
-    if (!is.null(description)) {
-        pkg.env$rdf %>% rdflib::rdf_add(
-            subject = paste0(pkg.env$namespaces["rscript"], URLencode(id, reserved = TRUE)),
-            predicate = paste0(pkg.env$namespaces["rdfs"], "comment"),
-            object = toString(description)
-        )
+        if (!is.null(description)) {
+            pkg.env$rdf %>% rdflib::rdf_add(
+                subject = paste0(namespace, URLencode(id, reserved = TRUE)),
+                predicate = paste0(pkg.env$namespaces["rdfs"], "comment"),
+                object = toString(description)
+            )
+        }
     }
 
     get_id <- function() id
@@ -152,9 +192,9 @@ Activity <- function(id = NULL, label = NULL, description = NULL) {
             stop("argument has to be of the class \"Entity\"!")
         }
         pkg.env$rdf %>% rdflib::rdf_add(
-            subject = paste0(pkg.env$namespaces["rscript"], URLencode(id, reserved = TRUE)),
+            subject = paste0(namespace, URLencode(id, reserved = TRUE)),
             predicate = paste0(pkg.env$namespaces["prov"], "used"),
-            object = paste0(pkg.env$namespaces["rscript"], URLencode(entity$get_id(), reserved = TRUE)),
+            object = paste0(namespace, URLencode(entity$get_id(), reserved = TRUE)),
         )
     }
 
@@ -163,9 +203,9 @@ Activity <- function(id = NULL, label = NULL, description = NULL) {
             stop("argument has to be of the class \"Activity\"!")
         }
         pkg.env$rdf %>% rdflib::rdf_add(
-            subject = paste0(pkg.env$namespaces["rscript"], URLencode(id, reserved = TRUE)),
+            subject = paste0(namespace, URLencode(id, reserved = TRUE)),
             predicate = paste0(pkg.env$namespaces["prov"], "wasInformedBy"),
-            object = paste0(pkg.env$namespaces["rscript"], URLencode(activity$get_id(), reserved = TRUE)),
+            object = paste0(namespace, URLencode(activity$get_id(), reserved = TRUE)),
         )
     }
 
@@ -174,49 +214,57 @@ Activity <- function(id = NULL, label = NULL, description = NULL) {
             stop("argument has to be of the class \"Agent\"!")
         }
         pkg.env$rdf %>% rdflib::rdf_add(
-            subject = paste0(pkg.env$namespaces["rscript"], URLencode(id, reserved = TRUE)),
+            subject = paste0(namespace, URLencode(id, reserved = TRUE)),
             predicate = paste0(pkg.env$namespaces["prov"], "wasAssociatedWith"),
-            object = paste0(pkg.env$namespaces["rscript"], URLencode(entity$get_id(), reserved = TRUE)),
+            object = paste0(namespace, URLencode(entity$get_id(), reserved = TRUE)),
         )
     }
-
     structure(class = "Activity", environment())
 }
 
 
-Agent <- function(id = NULL, label = NULL, description = NULL) {
+Agent <- function(id = NULL, label = NULL, description = NULL, namespace = pkg.env$namespaces["rscript"], load = FALSE) {
     if (is.null(id)) {
         stop("ID required!")
+    }
+    id_exists <- resource_exists(id, namespace)
+    if (id_exists && !(load)) {
+        stop(sprintf("A resource with the URI <%s> already exists (as subject), please use the \'load = TRUE\' option.", paste0(namespace, URLencode(id, reserved = TRUE))))
+    }
+    if (load && !(id_exists)) {
+        stop(sprintf("A resource with the URI <%s> does not exists (as subject), please use the \'load = FALSE\' option.", paste0(namespace, URLencode(id, reserved = TRUE))))
     }
     id <- id
     label <- label
     description <- description
 
-    pkg.env$rdf %>% rdflib::rdf_add(
-        subject = paste0(pkg.env$namespaces["rscript"], URLencode(id, reserved = TRUE)),
-        predicate = paste0(pkg.env$namespaces["rdf"], "type"),
-        object = paste0(pkg.env$namespaces["prov"], "Agent")
-    )
-    if (is.null(label)) {
+    if (!(load)) {
         pkg.env$rdf %>% rdflib::rdf_add(
-            subject = paste0(pkg.env$namespaces["rscript"], URLencode(id, reserved = TRUE)),
-            predicate = paste0(pkg.env$namespaces["rdfs"], "label"),
-            object = id
+            subject = paste0(namespace, URLencode(id, reserved = TRUE)),
+            predicate = paste0(pkg.env$namespaces["rdf"], "type"),
+            object = paste0(pkg.env$namespaces["prov"], "Agent")
         )
-    } else {
-        pkg.env$rdf %>% rdflib::rdf_add(
-            subject = paste0(pkg.env$namespaces["rscript"], URLencode(id, reserved = TRUE)),
-            predicate = paste0(pkg.env$namespaces["rdfs"], "label"),
-            object = label
-        )
-    }
+        if (is.null(label)) {
+            pkg.env$rdf %>% rdflib::rdf_add(
+                subject = paste0(namespace, URLencode(id, reserved = TRUE)),
+                predicate = paste0(pkg.env$namespaces["rdfs"], "label"),
+                object = id
+            )
+        } else {
+            pkg.env$rdf %>% rdflib::rdf_add(
+                subject = paste0(namespace, URLencode(id, reserved = TRUE)),
+                predicate = paste0(pkg.env$namespaces["rdfs"], "label"),
+                object = label
+            )
+        }
 
-    if (!is.null(description)) {
-        pkg.env$rdf %>% rdflib::rdf_add(
-            subject = paste0(pkg.env$namespaces["rscript"], URLencode(id, reserved = TRUE)),
-            predicate = paste0(pkg.env$namespaces["rdfs"], "comment"),
-            object = toString(description)
-        )
+        if (!is.null(description)) {
+            pkg.env$rdf %>% rdflib::rdf_add(
+                subject = paste0(namespace, URLencode(id, reserved = TRUE)),
+                predicate = paste0(pkg.env$namespaces["rdfs"], "comment"),
+                object = toString(description)
+            )
+        }
     }
 
     get_id <- function() id
@@ -227,12 +275,10 @@ Agent <- function(id = NULL, label = NULL, description = NULL) {
             stop("argument has to be of the class \"Agent\"!")
         }
         pkg.env$rdf %>% rdflib::rdf_add(
-            subject = paste0(pkg.env$namespaces["rscript"], URLencode(id, reserved = TRUE)),
+            subject = paste0(namespace, URLencode(id, reserved = TRUE)),
             predicate = paste0(pkg.env$namespaces["prov"], "actedOnBehalfOf"),
-            object = paste0(pkg.env$namespaces["rscript"], URLencode(entity$get_id(), reserved = TRUE)),
+            object = paste0(namespace, URLencode(entity$get_id(), reserved = TRUE)),
         )
     }
-
-
     structure(class = "Agent", environment())
 }
