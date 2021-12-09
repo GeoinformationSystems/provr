@@ -253,6 +253,8 @@ init_activity <- Activity(
 in_raster_entity$wasGeneratedBy(init_activity) 
 ```
 
+See _Hints /Pitfalls: Beware Namespaces_ for further information on using different namespaces for different scripts.
+
 ## Wrapping up
 
 The package enables script developers to build concise provenance graphs that fit their needs. The obvious drawback to fully automated approaches, is the required typing to set up the nodes and relations. The fine-grained graph example showed that the user can automate the provenance generation to a certain degree. Control structures can be leveraged and values of variables can be used to build ids, labels and descriptions.
@@ -286,11 +288,11 @@ The package enables script developers to build concise provenance graphs that fi
         A resource with the URI https://www.provr.com/10x10raster_ex#in_raster already exists (as subject), please use the 'load = TRUE' option.
     ```
 
-- __Beware namespaces:__ A certain node in the provenance graph is identified by its URI. The URI is the combination of a namespace and an identifier in this namespace. That means same IDs in different namespaces result in different nodes. An example:
+- __Beware Namespaces:__ A certain node in the provenance graph is identified by its URI. The URI is the combination of a namespace and an identifier in this namespace. That means same IDs in different namespaces result in different nodes. An example:
 
-    In _Listing 4_ we initialized the provenance graph with the namespace <https://www.provr.com/10x10raster_ex#>. Every Entity, Activity or Agent we subsequently defined in this script gets its unique URI constructed by concatenating this namespace with the ID we provide on instantiation; e.g.: `in_raster_entity <- Entity("in_raster", "Input Raster")` - the URI of this entity is <https://www.provr.com/10x10raster_ex#in_raster>.
+    In _Listing 4_ we initialized the provenance graph with the namespace <https://www.provr.com/10x10raster_ex#>. Every Entity, Activity or Agent we subsequently defined in this script gets its unique URI constructed by concatenating this namespace with the ID we provide on instantiation; e.g.: `in_raster_entity <- Entity("in_raster", "Input Raster")` results in <https://www.provr.com/10x10raster_ex#in_raster> as the nodes URI.
 
-    In _Listing 7_ and _Listing 8_ we loaded the graph from _Listing 4_ and accessed an Entity from the loaded graph by its ID. Notice that, on initializing the graph in _Listing 7_, we used the same namespace as in _Listing 4_. But what if we wanted to distinguish the Nodes that were constructed in _Listing 4_ from those that were constructed in _Listing 8_? In this case we would need to set up the graph in _Lisiting 7_ with a different namespace:
+    In _Listing 7_ and _Listing 8_ we loaded the graph from _Listing 4_ and accessed an Entity from the loaded graph by its ID. Notice that, on initializing the graph in _Listing 7_, we used the same namespace as in _Listing 4_. But what if we wanted to distinguish the nodes that were constructed in _Listing 4_ from those that were constructed in _Listing 8_? In this case we would need to set up the graph in _Lisiting 7_ with a different namespace:
 
     ```R
     init_provenance_graph(
@@ -305,10 +307,10 @@ The package enables script developers to build concise provenance graphs that fi
 
     ```terminal
     > Error in Entity(id = "in_raster", load = TRUE) : 
-         A resource with the URI <https://www.provr.com/another_namespace#in_raster> does not exists (as subject), please use the 'load = FALSE' option.
+         A resource with the URI <https://www.provr.com/another_namespace#in_raster> does not exists (as subject).
     ```
 
-    This is, because on node initialization the namespace that is concatenated with the provided ID, defaults to the namespace we gave at graph initialization. If we want to create or load nodes with namespaces that differ from this "default" namespace, we need to provide them explicitly:
+    This is, because on node initialization, the namespace that is concatenated with the provided ID, defaults to the namespace we gave at graph initialization. If we want to create or load nodes with namespaces that differ from this "default" namespace, we need to provide them explicitly:
 
     ```R
     init_provenance_graph(

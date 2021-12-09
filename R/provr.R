@@ -63,7 +63,7 @@ Entity <- function(id = NULL, label = NULL, description = NULL, namespace = pkg.
         stop(sprintf("A resource with the URI <%s> already exists (as subject), please use the \'load = TRUE\' option.", paste0(namespace, URLencode(id, reserved = TRUE))))
     }
     if (load && !(id_exists)) {
-        stop(sprintf("A resource with the URI <%s> does not exists (as subject), please use the \'load = FALSE\' option.", paste0(namespace, URLencode(id, reserved = TRUE))))
+        stop(sprintf("A resource with the URI <%s> does not exists (as subject).", paste0(namespace, URLencode(id, reserved = TRUE))))
     }
 
     id <- id
@@ -148,7 +148,7 @@ Activity <- function(id = NULL, label = NULL, description = NULL, namespace = pk
         stop(sprintf("A resource with the URI <%s> already exists (as subject), please use the \'load = TRUE\' option.", paste0(namespace, URLencode(id, reserved = TRUE))))
     }
     if (load && !(id_exists)) {
-        stop(sprintf("A resource with the URI <%s> does not exists (as subject), please use the \'load = FALSE\' option.", paste0(namespace, URLencode(id, reserved = TRUE))))
+        stop(sprintf("A resource with the URI <%s> does not exists (as subject).", paste0(namespace, URLencode(id, reserved = TRUE))))
     }
     id <- id
     label <- label
@@ -232,7 +232,7 @@ Agent <- function(id = NULL, label = NULL, description = NULL, namespace = pkg.e
         stop(sprintf("A resource with the URI <%s> already exists (as subject), please use the \'load = TRUE\' option.", paste0(namespace, URLencode(id, reserved = TRUE))))
     }
     if (load && !(id_exists)) {
-        stop(sprintf("A resource with the URI <%s> does not exists (as subject), please use the \'load = FALSE\' option.", paste0(namespace, URLencode(id, reserved = TRUE))))
+        stop(sprintf("A resource with the URI <%s> does not exists (as subject).", paste0(namespace, URLencode(id, reserved = TRUE))))
     }
     id <- id
     label <- label
