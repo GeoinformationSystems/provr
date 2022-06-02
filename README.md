@@ -42,7 +42,7 @@ As first step that graph has to be set up:
 init_provenance_graph(namespace = "https://www.yournamespace.com/script#")
 ```
 
-PROV-O is RDF based, which means that every _Entity_, _Activity_ and _Agent_ has to have a unique ID that resolves to a URL-like structure called URI. Every ID that you give to an _Entity_, _Activity_ or _Agent_ is concatenated to that very namespace you defined on graph initialization to build the URI. See _Hints / Pitfalls_ for more detailed information on namespaces.
+PROV-O is RDF based, which means that every _Entity_, _Activity_ and _Agent_ has to have a unique ID which has to be provided as IRI. Every ID that you give to an _Entity_, _Activity_ or _Agent_ is concatenated to that very namespace you defined on graph initialization to build the IRI. See _Hints / Pitfalls_ for more detailed information on namespaces.
 
 The package implements the three PROV-O Node types _Entity_, _Activity_ and _Agent_ as R-environments with class like behavior. Each Node type must have an ID and can have a label and a description. If no label is given on instantiation the ID is used as label.
 
@@ -275,7 +275,7 @@ The package enables script developers to build concise provenance graphs that fi
         argument has to be of the class "Activity"!
     ```
 
-- The package prevents you from setting up a node with the same URI (namespace + ID) twice:
+- The package prevents you from setting up a node with the same IRI (namespace + ID) twice:
 
     ```R
     entity <- Entity("in_raster")
@@ -285,12 +285,12 @@ The package enables script developers to build concise provenance graphs that fi
 
     ```terminal
     > Error in Entity(id = "in_raster") : 
-        A resource with the URI https://www.provr.com/10x10raster_ex#in_raster already exists (as subject), please use the 'load = TRUE' option.
+        A resource with the IRI https://www.provr.com/10x10raster_ex#in_raster already exists (as subject), please use the 'load = TRUE' option.
     ```
 
-- __Beware Namespaces:__ A certain node in the provenance graph is identified by its URI. The URI is the combination of a namespace and an identifier in this namespace. That means same IDs in different namespaces result in different nodes. An example:
+- __Beware Namespaces:__ A certain node in the provenance graph is identified by its IRI. The IRI is the combination of a namespace and an identifier in this namespace. That means same IDs in different namespaces result in different nodes. An example:
 
-    In _Listing 4_ we initialized the provenance graph with the namespace <https://www.provr.com/10x10raster_ex#>. Every Entity, Activity or Agent we subsequently defined in this script gets its unique URI constructed by concatenating this namespace with the ID we provide on instantiation; e.g.: `in_raster_entity <- Entity("in_raster", "Input Raster")` results in <https://www.provr.com/10x10raster_ex#in_raster> as the nodes URI.
+    In _Listing 4_ we initialized the provenance graph with the namespace <https://www.provr.com/10x10raster_ex#>. Every Entity, Activity or Agent we subsequently defined in this script gets its unique IRI constructed by concatenating this namespace with the ID we provide on instantiation; e.g.: `in_raster_entity <- Entity("in_raster", "Input Raster")` results in <https://www.provr.com/10x10raster_ex#in_raster> as the nodes IRI.
 
     In _Listing 7_ and _Listing 8_ we loaded the graph from _Listing 4_ and accessed an Entity from the loaded graph by its ID. Notice that, on initializing the graph in _Listing 7_, we used the same namespace as in _Listing 4_. But what if we wanted to distinguish the nodes that were constructed in _Listing 4_ from those that were constructed in _Listing 8_? In this case we would need to set up the graph in _Lisiting 7_ with a different namespace:
 
@@ -308,7 +308,7 @@ The package enables script developers to build concise provenance graphs that fi
 
     ```terminal
     > Error in Entity(id = "in_raster", load = TRUE) : 
-         A resource with the URI <https://www.provr.com/another_namespace#in_raster> does not exists (as subject).
+         A resource with the IRI <https://www.provr.com/another_namespace#in_raster> does not exists (as subject).
     ```
 
     This is, because on node initialization, the namespace that is concatenated with the provided ID, defaults to the namespace we gave at graph initialization. If we want to create or load nodes with namespaces that differ from this "default" namespace, we need to provide them explicitly:
@@ -322,13 +322,13 @@ The package enables script developers to build concise provenance graphs that fi
         id = 'in_raster',
         namespace = "https://www.provr.com/10x10raster_ex#", 
         load = TRUE)
-    # -> URI: <https://www.provr.com/10x10raster_ex#in_raster>
+    # -> IRI: <https://www.provr.com/10x10raster_ex#in_raster>
 
 
     # now we can proceed as in Listing 8:
 
     init_activity <- Activity('initial_process')
-    # -> URI: <https://www.provr.com/another_namespace#initial_process>
+    # -> IRI: <https://www.provr.com/another_namespace#initial_process>
 
     in_raster_entity$wasGeneratedBy(init_activity) 
     ```
