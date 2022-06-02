@@ -4,7 +4,7 @@ This package shall provide R script developers with some useful utilities to tra
 
 Find the Python version of this package at <https://github.com/GeoinformationSystems/provo>.
 
-I wrote this package because concurrent provenance tracking packages tend to, either produce lengthy documents with loads of abundant information (typically automatic provenance tracing) or don't allow for fine grained tracking (e.g. using qualified comments to track provenance cannot interpret conditions or loops). To sum up: This package gives the sole control over what is tracked to the user, while simplifying the task as much as possible.
+This package was written since concurrent provenance tracking packages tend to either produce lengthy documents with loads of abundant information (typically automatic provenance tracing) or don't allow for fine grained tracking (e.g. using qualified comments to track provenance cannot interpret conditions or loops). To sum up: This package gives the sole control over what is tracked to the user, while simplifying the task as much as possible.
 
 ## Some words to the PROV-Ontology
 
@@ -60,7 +60,7 @@ in_raster_entity <- Entity(
 )
 ```
 
-Now lets assume we have a script in which a 10 x 10 input raster with values ranging from 0 to 100 shall be converted to a masking raster by applying a threshold operation that sets values above 70 to 1 and other values to 0. The resulting mask raster shall be written in a new raster. 
+Now lets assume we have a script in which a 10 x 10 input raster with values ranging from 0 to 100 shall be converted to a masking raster by applying a threshold operation that sets values above 70 to 1 and other values to 0. The resulting mask raster shall be written in a new raster.
 
 <p align = "center">Listing 3</p>
 
@@ -218,7 +218,7 @@ out_raster_entity$wasGeneratedBy(leave_loop_activity)
 serialize_provenance_graph(name = "10x10raster_ex_fine.ttl")
 ```
 
-Fig. 5 shows the visualization of the resulting provenance graph. 
+Fig. 5 shows the visualization of the resulting provenance graph.
 
 <figure align = "center">
 <img src="graphics/10x10_ex_fine.png" width="500" title="PROV-O"/>
@@ -301,6 +301,7 @@ The package enables script developers to build concise provenance graphs that fi
     ```
 
     If we now proceed as in _Listing 8_ we get an error:
+
     ```R
     in_raster_entity <- Entity(id = 'in_raster', load = TRUE)
     ```
@@ -331,7 +332,6 @@ The package enables script developers to build concise provenance graphs that fi
 
     in_raster_entity$wasGeneratedBy(init_activity) 
     ```
-
 
 ## TODO
 
